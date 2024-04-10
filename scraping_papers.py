@@ -4,11 +4,14 @@ from bs4 import BeautifulSoup
 from urllib.parse import urlparse
 import pandas as pd
 
-# Load the CSV file, assuming the first column contains URLs and there's no header
-df = pd.read_csv('ODA_papers.csv', header=None)
+#import dataframe from CSV. The CSV comes from exporting the "Export" sheet in the Google Sheet.
+df = pd.read_csv('ODApapers.csv')
 
-# Extract the first column and convert it to a list
-urls = df[0].tolist()
+#clean up df
+df.rename(columns={'Paper (title + link)': 'Title'}, inplace=True)
+df['Title'] = df['Title'].str.replace('\n', ' ', regex=False)
+
+urls = df['URL'].tolist()
 
 #Replacing company websites with arXiv links if the webpage links to one
 
@@ -22,7 +25,7 @@ def find_arxiv_link_in_page(url):
             all_links = soup.find_all('a')
             for link in all_links:
                 # Check if 'Read paper' is in the link text or 'aria-label' and the href contains 'arxiv.org'
-                if 'arxiv.org' in link.get('href', '') and ('Read paper' in link.text or link.get('aria-label') == 'Read paper'):
+                if 'arxiv.org' in link.get('href', '') and ('read paper' in link.text.lower() or link.get('aria-label', '').lower() == 'read paper'):
                     return link['href']
     except Exception as e:
         print(f"Error fetching or parsing {url}: {e}")
@@ -42,7 +45,7 @@ def process_urls(urls):
             updated_urls.append(url)
     return updated_urls
 
-urls = updated_urls = process_urls(urls)
+urls = process_urls(urls)
 
 #function to get the title and abstract from an arXiv URL
 #I guess would be good to add the funtionality of switching back to the original URL once the processing is done
@@ -204,8 +207,31 @@ for index, row in mainDF.iterrows():
 # Remove the rows from the DataFrame
 mainDF = mainDF.drop(rows_to_remove)
 
+#handle papers whose abstracts were added manually
 
-mainDF
+manualDF  = pd.read_csv('Manually adding abstracts.csv',header=None,names=["URL","Abstract"])
+manualDF = manualDF.loc[manualDF['Abstract'] != "-"]
 
-errorDF = pd.DataFrame(errors,columns=['URL','Reason'])
-errorDF
+
+# Function to get title from URL
+def get_title(url):
+    try:
+        response = requests.get(url, timeout=10)
+        soup = BeautifulSoup(response.content, 'html.parser')
+        title = soup.find('title').text
+    except Exception as e:
+        print(f"Error fetching title for {url}: {e}")
+        title = "N/A"
+    return title
+
+# Apply the function to the 'URL' column and create a new 'Title' column
+manualDF['Title'] = manualDF['URL'].apply(get_title)
+
+# Reorder the DataFrame columns
+manualDF = manualDF[['Title', 'Abstract', 'URL']]
+
+#concatenate the successful data frames
+mainDF = pd.concat([mainDF, manualDF], ignore_index=True)
+
+#write to CSV
+mainDF.to_csv('Papers with abstracts.csv', columns=['Title', 'Abstract'], index=False)
