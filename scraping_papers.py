@@ -3,15 +3,12 @@ import xml.etree.ElementTree as ET
 from bs4 import BeautifulSoup
 from urllib.parse import urlparse
 import pandas as pd
+import json
+from tqdm.auto import tqdm
+from concurrent.futures import ThreadPoolExecutor, as_completed
 
 #import dataframe from CSV. The CSV comes from exporting the "Export" sheet in the Google Sheet.
-df = pd.read_csv('ODApapers.csv')
-
-#clean up df
-df.rename(columns={'Paper (title + link)': 'Title'}, inplace=True)
-df['Title'] = df['Title'].str.replace('\n', ' ', regex=False)
-
-urls = df['URL'].tolist()
+df = pd.read_csv('ODA_papers.csv')
 
 #Replacing company websites with arXiv links if the webpage links to one
 
@@ -34,18 +31,20 @@ def find_arxiv_link_in_page(url):
 def process_urls(urls):
     """Process a list of URLs, replacing specific links with their arXiv counterparts."""
     updated_urls = []
-    for url in urls:
+    for i, url in enumerate(urls, 1):  # Start counting from 1
         if 'arxiv.org' not in url:
             arxiv_url = find_arxiv_link_in_page(url)
-            if arxiv_url:
-                updated_urls.append(arxiv_url)
-            else:
-                updated_urls.append(url)
+            updated_urls.append(arxiv_url if arxiv_url else url)
         else:
             updated_urls.append(url)
+        print(f"{i}/{len(urls)} done")
     return updated_urls
 
-urls = process_urls(urls)
+df['URL_processed'] = process_urls(df['URL'].tolist())
+
+# Save DataFrame
+df.to_csv('ODA_papers_processed.csv', index=False)
+
 
 #function to get the title and abstract from an arXiv URL
 #I guess would be good to add the funtionality of switching back to the original URL once the processing is done
@@ -72,12 +71,11 @@ def extract_arXiv(url):
         entry = root.find('arxiv:entry', ns)
         
         # Extract the title and abstract from the entry, remove leading and trailing whitespace
-        title = entry.find('arxiv:title', ns).text.strip()
         abstract = entry.find('arxiv:summary', ns).text.strip()
         
-        return title, abstract
+        return abstract
     else:
-        return "Failed to retrieve."
+        return None
     
     #function to get the title and abstract from a DeepMind URL
 
@@ -85,9 +83,6 @@ def extract_GDM(url):
     response = requests.get(url)
     if response.status_code == 200:
         soup = BeautifulSoup(response.text, 'html.parser')
-        
-        # Extract the title from the page
-        title = soup.title.text.strip() if soup.title else 'Title not found'
         
         # Attempt to find the <h2> tag containing the text "Abstract"
         abstract_heading = soup.find(lambda tag: tag.name == 'h2' and 'Abstract' in tag.text)
@@ -100,9 +95,26 @@ def extract_GDM(url):
         else:
             abstract = 'Abstract not found'
         
-        return title, abstract
+        return abstract
     else:
-        return "Failed to retrieve."
+        return None
+    
+    #function to get the title and abstract from an OpenReview URL
+
+def extract_openreview(url):
+    response = requests.get(url)
+    if response.status_code == 200:
+        soup = BeautifulSoup(response.content, 'html.parser')
+        script_tag = soup.find('script', {'id': '__NEXT_DATA__'})
+        if script_tag:
+            data = json.loads(script_tag.string)
+            abstract = data['props']['pageProps']['forumNote']['content'].get('abstract', 'Abstract not found')
+        else:
+            abstract = 'Abstract not found'
+        
+        return abstract
+    else:
+        return None
     
     #function to get the title and abstract from an Anthropic URL
 
@@ -111,17 +123,14 @@ def extract_Anthropic(url):
     if response.status_code == 200:
         soup = BeautifulSoup(response.text, 'html.parser')
 
-        # Find the title
-        title = soup.find('h1').text.strip() if soup.find('h1') else 'Title not found'
-
         # Locate the abstract based on the <h4> tag using the 'string' argument instead of 'text'
         abstract_marker = soup.find('h4', string='Abstract')
         abstract = abstract_marker.find_next_sibling('p').text.strip() if abstract_marker else 'Abstract not found'
 
-        return title, abstract
+        return abstract
         
     else:
-        return "Failed to retrieve."
+        return None
     
     #Note that the OAI pages are pretty inconsistent so this won't work for all of them.
 
@@ -129,10 +138,6 @@ def extract_OAI(url):
     response = requests.get(url)
     if response.status_code == 200:
         soup = BeautifulSoup(response.text, 'html.parser')
-        
-        # Locate the correct <h1> element for the title. Assuming it's the first <h1> inside a specific div
-        title_container = soup.find('div', class_='ui-hero')
-        title = title_container.find('h1').text.strip() if title_container else 'Title not found'
         
         # Find the abstract. It's in the <div> following the <h2> tag containing "Abstract"
         try:
@@ -144,94 +149,50 @@ def extract_OAI(url):
             abstract_section = soup.find('h2', string='Abstract').find_next_sibling('div')
             abstract = ' '.join(abstract_section.stripped_strings) if abstract_section else 'Abstract not found'
         
-        return title, abstract
+        return abstract
     else:
-        return "Failed to retrieve webpage"
+        return None
     
-#defining lists that are used for the dataframes
-title_abstract = []
-errors = []
-
-#function to turn a URL into just the domain, e.g. google.com
-def url_to_domain(url):
-    # Parse the URL to extract the domain
-    parsed_url = urlparse(url)
-    domain = parsed_url.netloc
-    return(domain)
-
-#function to add the processed the scraped info to the working or error df
-def process_scraped_info(output):
-    if output == "Failed to retrieve.":
-        errors.append((url,output))
-    else:
-        title_abstract.append((*output,url))
-        
-#Processing the scraped info for each of the domains
-for url in urls:
-    if 'arxiv.org' in url_to_domain(url):
-        output = extract_arXiv(url)
-        process_scraped_info(output)
-    elif 'deepmind.google' in url_to_domain(url):
-        output = extract_GDM(url)
-        process_scraped_info(output)
-    elif 'anthropic.com' in url_to_domain(url):
-        output = extract_Anthropic(url)
-        process_scraped_info(output)
-    elif 'openai.com' in url_to_domain(url):
-        output = extract_OAI(url)
-        process_scraped_info(output)
-    else:
-        errors.append((url,"You haven't set up scraping for this website."))
-
-
-
-mainDF = pd.DataFrame(title_abstract, columns=['Title', 'Abstract','URL'])
-
-
-# Assuming df is your DataFrame and errors is the list to append errors to
-
-# To store indices of rows to be removed
-rows_to_remove = []
-
-for index, row in mainDF.iterrows():
-    if "not found" in row['Title'] and "not found" in row['Abstract']:
-        errors.append((row['URL'], "Abstract and title both not found"))
-        rows_to_remove.append(index)
-    elif row['Title'] == "Title not found":
-        errors.append((row['URL'], "Title not found"))
-        rows_to_remove.append(index)
-    elif row['Abstract'] == "Abstract not found":
-        errors.append((row['URL'], "Abstract not found"))
-        rows_to_remove.append(index)
-
-# Remove the rows from the DataFrame
-mainDF = mainDF.drop(rows_to_remove)
-
-#handle papers whose abstracts were added manually
-
-manualDF  = pd.read_csv('Manually adding abstracts.csv',header=None,names=["URL","Abstract"])
-manualDF = manualDF.loc[manualDF['Abstract'] != "-"]
-
-
-# Function to get title from URL
-def get_title(url):
+# Function to extract the abstract from a given URL based on the domain
+def extract_abstract(url):
     try:
-        response = requests.get(url, timeout=10)
-        soup = BeautifulSoup(response.content, 'html.parser')
-        title = soup.find('title').text
+        # Check the domain and call the appropriate extraction function
+        domain = urlparse(url).netloc
+        if 'arxiv.org' in domain:
+            return extract_arXiv(url)
+        elif 'deepmind.google' in domain:
+            return extract_GDM(url)
+        elif 'anthropic.com' in domain:
+            return extract_Anthropic(url)
+        elif 'openai.com' in domain:
+            return extract_OAI(url)
+        elif 'openreview.net' in domain:
+            return extract_openreview(url)
+        else:
+            return None  # Domain not recognized
     except Exception as e:
-        print(f"Error fetching title for {url}: {e}")
-        title = "N/A"
-    return title
+        return None  # In case of an error, return None
 
-# Apply the function to the 'URL' column and create a new 'Title' column
-manualDF['Title'] = manualDF['URL'].apply(get_title)
+tqdm.pandas(desc="Extracting abstracts")
 
-# Reorder the DataFrame columns
-manualDF = manualDF[['Title', 'Abstract', 'URL']]
+# Use progress_apply instead of apply to see the progress bar
+df['Abstract'] = df['URL_processed'].progress_apply(extract_abstract)
 
-#concatenate the successful data frames
-mainDF = pd.concat([mainDF, manualDF], ignore_index=True)
+# handle papers whose abstracts were added manually
+manualDF  = pd.read_csv('Manually adding abstracts.csv',header=None,names=["URL","Abstract"])
 
-#write to CSV
-mainDF.to_csv('Papers with abstracts.csv', columns=['Title', 'Abstract'], index=False)
+# Merge the two DataFrames on the 'URL' column with a left join to keep all rows from `df`
+combined_df = pd.merge(df, manualDF, on='URL', how='left', suffixes=('', '_manual'))
+
+# Where the 'Abstract_manual' is not null (meaning there is a manually added abstract), 
+# replace the 'Abstract' with the 'Abstract_manual' value
+combined_df['Abstract'] = combined_df.apply(
+    lambda row: row['Abstract_manual'] if pd.notnull(row['Abstract_manual']) else row['Abstract'],
+    axis=1
+)
+
+# Drop the 'Abstract_manual' column as it's no longer needed
+combined_df.drop(columns='Abstract_manual', inplace=True)
+
+# Write the updated DataFrame back to a CSV
+combined_df.to_csv('ODA_papers_with_abstracts.csv', index=False)

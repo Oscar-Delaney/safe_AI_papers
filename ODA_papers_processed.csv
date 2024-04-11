@@ -1,0 +1,409 @@
+Company,Title,Date,URL,Safety_category,URL_processed
+Anthropic,Sleeper Agents: Training Deceptive LLMs that Persist Through Safety Training,15-Jan-24,https://www.anthropic.com/research/sleeper-agents-training-deceptive-llms-that-persist-through-safety-training,Model organisms of misalignment,https://arxiv.org/abs/2401.05566
+Anthropic,Evaluating and Mitigating Discrimination in Language Model Decisions,7-Dec-23,https://www.anthropic.com/research/evaluating-and-mitigating-discrimination-in-language-model-decisions,No,http://arxiv.org/abs/2312.03689
+Anthropic,Specific versus General Principles for Constitutional AI,24-Oct-23,https://www.anthropic.com/research/specific-versus-general-principles-for-constitutional-ai,Enhancing human feedback,https://arxiv.org/abs/2310.13798
+Anthropic,Towards Understanding Sycophancy in Language Models,24-Oct-23,https://www.anthropic.com/research/towards-understanding-sycophancy-in-language-models,Enhancing human feedback,https://arxiv.org/abs/2310.13548
+Anthropic,Towards Monosemanticity: Decomposing Language Models With Dictionary Learning,5-Oct-23,https://www.anthropic.com/research/towards-monosemanticity-decomposing-language-models-with-dictionary-learning,Transparency and Interpretability,https://www.anthropic.com/research/towards-monosemanticity-decomposing-language-models-with-dictionary-learning
+Anthropic,Studying Large Language Model Generalization with Influence Functions,8-Aug-23,https://www.anthropic.com/research/studying-large-language-model-generalization-with-influence-functions,Transparency and Interpretability,https://arxiv.org/abs/2308.03296
+Anthropic,Question Decomposition Improves the Faithfulness of Model-Generated Reasoning,18-Jul-23,https://www.anthropic.com/research/question-decomposition-improves-the-faithfulness-of-model-generated-reasoning,Honest AI,https://www.anthropic.com/research/question-decomposition-improves-the-faithfulness-of-model-generated-reasoning
+Anthropic,Towards Measuring the Representation of Subjective Global Opinions in Language Models,29-Jun-23,https://www.anthropic.com/research/towards-measuring-the-representation-of-subjective-global-opinions-in-language-models,No,https://arxiv.org/abs/2306.16388
+Anthropic,Circuits Updates — May 2023,24-May-23,https://www.anthropic.com/research/circuits-updates-may-2023,Transparency and Interpretability,https://www.anthropic.com/research/circuits-updates-may-2023
+Anthropic,Interpretability Dreams,24-May-23,https://www.anthropic.com/research/interpretability-dreams,Transparency and Interpretability,https://www.anthropic.com/research/interpretability-dreams
+Anthropic,Distributed Representations: Composition & Superposition,4-May-23,https://www.anthropic.com/research/distributed-representations-composition-superposition,Transparency and Interpretability,https://www.anthropic.com/research/distributed-representations-composition-superposition
+Anthropic,Privileged Bases in the Transformer Residual Stream,16-Mar-23,https://www.anthropic.com/research/privileged-bases-in-the-transformer-residual-stream,Transparency and Interpretability,https://www.anthropic.com/research/privileged-bases-in-the-transformer-residual-stream
+Anthropic,The Capacity for Moral Self-Correction in Large Language Models,15-Feb-23,https://www.anthropic.com/research/the-capacity-for-moral-self-correction-in-large-language-models,Enhancing human feedback,https://arxiv.org/abs/2302.07459
+Anthropic,"Superposition, Memorization, and Double Descent",5-Jan-23,https://www.anthropic.com/research/superposition-memorization-and-double-descent,Transparency and Interpretability,https://www.anthropic.com/research/superposition-memorization-and-double-descent
+Anthropic,Discovering Language Model Behaviors with Model-Written Evaluations,19-Dec-22,https://www.anthropic.com/research/discovering-language-model-behaviors-with-model-written-evaluations,Automated alignment research,https://arxiv.org/abs/2212.09251
+Anthropic,Constitutional AI: Harmlessness from AI Feedback,15-Dec-22,https://www.anthropic.com/research/constitutional-ai-harmlessness-from-ai-feedback,Automated alignment research,https://arxiv.org/abs/2212.08073
+Anthropic,Measuring Progress on Scalable Oversight for Large Language Models,4-Nov-22,https://www.anthropic.com/research/measuring-progress-on-scalable-oversight-for-large-language-models,Enhancing human feedback,https://arxiv.org/abs/2211.03540
+Anthropic,Toy Models of Superposition,14-Sep-22,https://www.anthropic.com/research/toy-models-of-superposition,Transparency and Interpretability,https://www.anthropic.com/research/toy-models-of-superposition
+Anthropic,"Red Teaming Language Models to Reduce Harms: Methods, Scaling Behaviors, and Lessons Learned",22-Aug-22,https://www.anthropic.com/research/red-teaming-language-models-to-reduce-harms-methods-scaling-behaviors-and-lessons-learned,Model safety evaluations,https://arxiv.org/abs/2209.07858
+Anthropic,Language Models (Mostly) Know What They Know,11-Jul-22,https://www.anthropic.com/research/language-models-mostly-know-what-they-know,No,https://arxiv.org/abs/2207.05221
+Anthropic,Softmax Linear Units,17-Jun-22,https://www.anthropic.com/research/softmax-linear-units,Transparency and Interpretability,https://www.anthropic.com/research/softmax-linear-units
+Anthropic,Scaling Laws and Interpretability of Learning from Repeated Data,21-May-22,https://www.anthropic.com/research/scaling-laws-and-interpretability-of-learning-from-repeated-data,Transparency and Interpretability,https://arxiv.org/abs/2205.10487
+Anthropic,Training a Helpful and Harmless Assistant with Reinforcement Learning from Human Feedback,12-Apr-22,https://www.anthropic.com/research/training-a-helpful-and-harmless-assistant-with-reinforcement-learning-from-human-feedback,Enhancing human feedback,https://arxiv.org/abs/2204.05862
+Anthropic,In-context Learning and Induction Heads,8-Mar-22,https://www.anthropic.com/research/in-context-learning-and-induction-heads,Transparency and Interpretability,https://www.anthropic.com/research/in-context-learning-and-induction-heads
+Anthropic,Predictability and Surprise in Large Generative Models,15-Feb-22,https://www.anthropic.com/research/predictability-and-surprise-in-large-generative-models,No,https://arxiv.org/abs/2202.07785
+OpenAI,Weak-to-strong generalization,14-Dec-23,https://openai.com/research/weak-to-strong-generalization,Automated alignment research,https://openai.com/research/weak-to-strong-generalization
+OpenAI,Practices for Governing Agentic AI Systems,14-Dec-23,https://openai.com/research/practices-for-governing-agentic-ai-systems,No,https://openai.com/research/practices-for-governing-agentic-ai-systems
+OpenAI,DALL·E 3 system card,3-Oct-23,https://openai.com/research/dall-e-3-system-card,No,https://openai.com/research/dall-e-3-system-card
+OpenAI,GPT-4V(ision) system card,25-Sep-23,https://openai.com/research/gpt-4v-system-card,No,https://openai.com/research/gpt-4v-system-card
+OpenAI,Confidence-Building Measures for Artificial Intelligence: Workshop proceedings,1-Aug-23,https://openai.com/research/confidence-building-measures-for-artificial-intelligence,No,https://arxiv.org/abs/2308.00862
+OpenAI,Frontier AI regulation: Managing emerging risks to public safety,6-Jul-23,https://openai.com/research/frontier-ai-regulation,No,https://arxiv.org/abs/2307.03718
+OpenAI,Language models can explain neurons in language models,9-May-23,https://openai.com/research/language-models-can-explain-neurons-in-language-models,Transparency and Interpretability,https://openai.com/research/language-models-can-explain-neurons-in-language-models
+OpenAI,Forecasting potential misuses of language models for disinformation campaigns and how to reduce risk,11-Jan-23,https://openai.com/research/forecasting-misuse,No,https://arxiv.org/abs/2301.04246
+OpenAI,Scaling laws for reward model overoptimization,19-Oct-22,https://openai.com/research/scaling-laws-for-reward-model-overoptimization,No,https://arxiv.org/abs/2210.10760
+OpenAI,A hazard analysis framework for code synthesis large language models,25-Jul-22,https://openai.com/research/a-hazard-analysis-framework-for-code-synthesis-large-language-models,Model safety evaluations,https://arxiv.org/abs/2207.14157
+OpenAI,AI-written critiques help humans notice flaws,13-Jun-22,https://openai.com/research/critiques,Enhancing human feedback,https://arxiv.org/abs/2206.05802
+OpenAI,Measuring Goodhart’s law,13-Apr-22,https://openai.com/research/measuring-goodharts-law,Enhancing human feedback,https://openai.com/research/measuring-goodharts-law
+OpenAI,Lessons learned on language model safety and misuse,3-Mar-22,https://openai.com/research/language-model-safety-and-misuse,No,https://openai.com/research/language-model-safety-and-misuse
+OpenAI,Aligning language models to follow instructions,27-Jan-22,https://openai.com/research/instruction-following,Enhancing human feedback,https://arxiv.org/abs/2203.02155
+Google DeepMind,A density estimation perspective on learning from pairwise human preferences,26-Feb-24,https://deepmind.google/research/publications/64513/,Enhancing human feedback,https://deepmind.google/research/publications/64513/
+Google DeepMind,Learning to Learn Faster from Human Feedback with Language Model Predictive Control,18-Feb-24,https://deepmind.google/research/publications/74007/,Enhancing human feedback,https://deepmind.google/research/publications/74007/
+Google DeepMind,Robust agents learn causal world models,1-Feb-24,https://deepmind.google/research/publications/49666/,Robustness,https://deepmind.google/research/publications/49666/
+Google DeepMind,Benchmarking Robustness to Adversarial Image Obfuscations,10-Dec-23,https://deepmind.google/research/publications/18457/,Robustness,https://deepmind.google/research/publications/18457/
+Google DeepMind,Scalable AI Safety via Doubly-Efficient Debate,23-Nov-23,https://deepmind.google/research/publications/34920/,Enhancing human feedback,https://deepmind.google/research/publications/34920/
+Google DeepMind,Understanding Learning from Human Preferences,11-Mar-24,https://deepmind.google/research/publications/54918/,Enhancing human feedback,https://deepmind.google/research/publications/54918/
+Google DeepMind,Evaluating the Adversarial Robustness of Adaptive Test-time Defenses,28-Feb-22,https://arxiv.org/abs/2202.13711,Robustness,https://arxiv.org/abs/2202.13711
+Google DeepMind,AtP*: Efficient and scalable methods for localizing LLM behaviour to components,4-Mar-24,https://deepmind.google/research/publications/68553/,Transparency and Interpretability,https://deepmind.google/research/publications/68553/
+Google DeepMind,Challenges with unsupervised LLM knowledge discovery,15-Dec-23,https://deepmind.google/research/publications/66937/,Honest AI,https://deepmind.google/research/publications/66937/
+Google DeepMind,Does Circuit Analysis Interpretability Scale? Evidence from Multiple Choice Capabilities in Chinchil,18-Jul-23,https://arxiv.org/abs/2307.09458,Transparency and Interpretability,https://arxiv.org/abs/2307.09458
+Google DeepMind,Evaluating Frontier Models for Dangerous Capabilities,20-Mar-24,https://arxiv.org/abs/2403.13793,Model safety evaluations,https://arxiv.org/abs/2403.13793
+Google DeepMind,Building safer dialogue agents,22-Sep-22,https://deepmind.google/discover/blog/building-safer-dialogue-agents/,Enhancing human feedback,https://deepmind.google/discover/blog/building-safer-dialogue-agents/
+Google DeepMind,How undesired goals can arise with correct rewards,7-Oct-22,https://deepmind.google/discover/blog/how-undesired-goals-can-arise-with-correct-rewards/,Robustness,https://deepmind.google/discover/blog/how-undesired-goals-can-arise-with-correct-rewards/
+Google DeepMind,Discovering when an agent is present in a system,18-Aug-22,https://deepmind.google/discover/blog/discovering-when-an-agent-is-present-in-a-system/,AI safety formalisms,https://deepmind.google/discover/blog/discovering-when-an-agent-is-present-in-a-system/
+Google DeepMind,Red Teaming Language Models with Language Models,7-Feb-22,https://deepmind.google/discover/blog/red-teaming-language-models-with-language-models/,Model safety evaluations,https://deepmind.google/discover/blog/red-teaming-language-models-with-language-models/
+Google DeepMind,Tracr: Compiled Transformers as a Laboratory for Interpretability,21-Sep-23,https://deepmind.google/research/publications/22295/,Transparency and Interpretability,https://deepmind.google/research/publications/22295/
+Google DeepMind,Mirasol3B: A Multimodal Autoregressive Model for Time-Aligned and Contextual Modalities,17-Jun-24,https://deepmind.google/research/publications/50070/,,https://deepmind.google/research/publications/50070/
+Google DeepMind,Bayes' Rays: uncertainty quantification for neural radiance fields,17-Jun-24,https://deepmind.google/research/publications/60877/,,https://deepmind.google/research/publications/60877/
+Google DeepMind,Neural Fields as Distributions: Signal Processing Beyond Euclidean Space,17-Jun-24,https://deepmind.google/research/publications/61382/,,https://deepmind.google/research/publications/61382/
+Google DeepMind,Language Modeling Is Compression,7-May-24,https://deepmind.google/research/publications/39768/,,https://deepmind.google/research/publications/39768/
+Google DeepMind,Learning 3D Particle-based Simulators from RGB-D Videos,7-May-24,https://deepmind.google/research/publications/50878/,,https://deepmind.google/research/publications/50878/
+Google DeepMind,Deep SE(3)-Equivariant Geometric Reasoning for Precise Placement Tasks,7-May-24,https://deepmind.google/research/publications/36940/,,https://deepmind.google/research/publications/36940/
+Google DeepMind,Privacy Amplification by Sampling for the Matrix Mechanism.,7-May-24,https://deepmind.google/research/publications/42798/,,https://deepmind.google/research/publications/42798/
+Google DeepMind,Kalman Filter for Online Classification of Non-Stationary Data,7-May-24,https://deepmind.google/research/publications/33405/,,https://deepmind.google/research/publications/33405/
+Google DeepMind,CORRELATED NOISE PROVABLY BEATS INDEPENDENT NOISE FOR DIFFERENTIALLY PRIVATE LEARNING,7-May-24,https://deepmind.google/research/publications/50273/,,https://deepmind.google/research/publications/50273/
+Google DeepMind,π2vec: Policy Representations with SuccessorFeatures,7-May-24,https://deepmind.google/research/publications/25628/,,https://deepmind.google/research/publications/25628/
+Google DeepMind,Teach LLMs to Phish: Stealing Private Information from Language Models,7-May-24,https://deepmind.google/research/publications/43000/,,https://deepmind.google/research/publications/43000/
+Google DeepMind,Gecko: Versatile Text Embeddings Distilled from Large Language Models,29-Mar-24,https://deepmind.google/research/publications/85521/,,https://deepmind.google/research/publications/85521/
+Google DeepMind,Long-form factuality in large language models,27-Mar-24,https://deepmind.google/research/publications/85420/,,https://deepmind.google/research/publications/85420/
+Google DeepMind,DiPaCo: Distributed Path Composition,19-Mar-24,https://deepmind.google/research/publications/84915/,,https://deepmind.google/research/publications/84915/
+Google DeepMind,Model-free Posterior Sampling via Learning Rate Randomization,11-Mar-24,https://deepmind.google/research/publications/32193/,,https://deepmind.google/research/publications/32193/
+Google DeepMind,"Prosody for Intuitive Robotic Interface Design: It's Not What You Said, It's How You Said It",11-Mar-24,https://deepmind.google/research/publications/74310/,,https://deepmind.google/research/publications/74310/
+Google DeepMind,Robust Exploration via Clustering-based Density Estimation,11-Mar-24,https://deepmind.google/research/publications/15530/,,https://deepmind.google/research/publications/15530/
+Google DeepMind,Demonstration-Regularized RL,11-Mar-24,https://deepmind.google/research/publications/41182/,,https://deepmind.google/research/publications/41182/
+Google DeepMind,How aligned are different alignment metrics?,2-Mar-24,https://deepmind.google/research/publications/75635/,,https://deepmind.google/research/publications/75635/
+Google DeepMind,Approximating the Core of Cooperative Games,1-Mar-24,https://deepmind.google/research/publications/52090/,,https://deepmind.google/research/publications/52090/
+Google DeepMind,Towards Practical Reinforcement Learning for Tokamak Magnetic Control,1-Mar-24,https://deepmind.google/research/publications/30578/,,https://deepmind.google/research/publications/30578/
+Google DeepMind,Self-supervised video pretraining yields strong image representations,29-Feb-24,https://deepmind.google/research/publications/15533/,,https://deepmind.google/research/publications/15533/
+Google DeepMind,Bad Students Make Great Teachers: Active Learning Accelerates Large Scale Visual Understanding,29-Feb-24,https://deepmind.google/research/publications/62998/,,https://deepmind.google/research/publications/62998/
+Google DeepMind,Set Learning for Accurate and Calibrated Models,27-Feb-24,https://deepmind.google/research/publications/46131/,,https://deepmind.google/research/publications/46131/
+Google DeepMind,Intriguing Properties of Generative Classifers,26-Feb-24,https://deepmind.google/research/publications/45424/,,https://deepmind.google/research/publications/45424/
+Google DeepMind,Learning a Fourier Transform for Linear Relative Positional Encodings in Transformers,25-Feb-24,https://deepmind.google/research/publications/49969/,,https://deepmind.google/research/publications/49969/
+Google DeepMind,On Limitations of the Transformer Architecture,24-Feb-24,https://deepmind.google/research/publications/77946/,,https://deepmind.google/research/publications/77946/
+Google DeepMind,AlphaTensor for Optimizing Quantum Computations,23-Feb-24,https://deepmind.google/research/publications/77240/,,https://deepmind.google/research/publications/77240/
+Google DeepMind,Genie: Generative Interactive Environments,23-Feb-24,https://deepmind.google/research/publications/60474/,,https://deepmind.google/research/publications/60474/
+Google DeepMind,"When Scaling Meets LLM Finetuning: The Effect of Data, Model and Finetuning Method",22-Feb-24,https://deepmind.google/research/publications/49667/,,https://deepmind.google/research/publications/49667/
+Google DeepMind,OmniPred: Language Models as Universal Regressors,22-Feb-24,https://deepmind.google/research/publications/78451/,,https://deepmind.google/research/publications/78451/
+Google DeepMind,The Next 700 ML-Enabled Compiler Optimizations,20-Feb-24,https://deepmind.google/research/publications/57746/,,https://deepmind.google/research/publications/57746/
+Google DeepMind,Simulacra as Conscious Exotica,19-Feb-24,https://deepmind.google/research/publications/79663/,,https://deepmind.google/research/publications/79663/
+Google DeepMind,A Human-Inspired Reading Agent with Gist Memory of Very Long Contexts,15-Feb-24,https://deepmind.google/research/publications/74917/,,https://deepmind.google/research/publications/74917/
+Google DeepMind,Experts Don't Cheat: Learning What You Don't Know by Predicting Pairs,15-Feb-24,https://deepmind.google/research/publications/73709/,,https://deepmind.google/research/publications/73709/
+Google DeepMind,Premise Order Matters in Reasoning with Large Language Models,14-Feb-24,https://deepmind.google/research/publications/75421/,,https://deepmind.google/research/publications/75421/
+Google DeepMind,A Distributional Analogue to the Successor Representation,13-Feb-24,https://deepmind.google/research/publications/44717/,,https://deepmind.google/research/publications/44717/
+Google DeepMind,Near-Minimax-Optimal Distributional RL with a Generative Model,12-Feb-24,https://deepmind.google/research/publications/70372/,,https://deepmind.google/research/publications/70372/
+Google DeepMind,PIVOT: Iterative Visual Prompting Elicits Actionable Knowledge for VLMs,12-Feb-24,https://deepmind.google/research/publications/72495/,,https://deepmind.google/research/publications/72495/
+Google DeepMind,Chain-of-Table: Evolves Tables in the LLM Reasoning Chain for Table Understanding,11-Feb-24,https://deepmind.google/research/publications/47444/,,https://deepmind.google/research/publications/47444/
+Google DeepMind,Prior-Dependent Allocations for Bayesian Fixed-Budget Best-Arm Identification in Structured Bandits,8-Feb-24,https://deepmind.google/research/publications/52797/,,https://deepmind.google/research/publications/52797/
+Google DeepMind,Memory Consolidation Enables Long-Context Video Understanding,8-Feb-24,https://deepmind.google/research/publications/79057/,,https://deepmind.google/research/publications/79057/
+Google DeepMind,Large Language Models Self-Discover Reasoning Structures,6-Feb-24,https://deepmind.google/research/publications/64816/,,https://deepmind.google/research/publications/64816/
+Google DeepMind,States as Strings as Strategies: Steering Language Models with Game-Theoretic Solvers,6-Feb-24,https://deepmind.google/research/publications/67342/,,https://deepmind.google/research/publications/67342/
+Google DeepMind,Transfer Learning for Bayesian Optimization on Heterogeneous Search Spaces,2-Feb-24,https://deepmind.google/research/publications/45020/,,https://deepmind.google/research/publications/45020/
+Google DeepMind,Fractal Patterns May Unravel the Intelligence in Next-Token Prediction,2-Feb-24,https://deepmind.google/research/publications/48253/,,https://deepmind.google/research/publications/48253/
+Google DeepMind,Exploration at Scale using Epistemic Neural Networks,1-Feb-24,https://deepmind.google/research/publications/73001/,,https://deepmind.google/research/publications/73001/
+Google DeepMind,Learning Universal Predictors,26-Jan-24,https://deepmind.google/research/publications/42394/,,https://deepmind.google/research/publications/42394/
+Google DeepMind,Neural Population Learning beyond Symmetric Zero-Sum Games,20-Jan-24,https://deepmind.google/research/publications/24820/,,https://deepmind.google/research/publications/24820/
+Google DeepMind,Asynchronous Local-SGD Training forLanguage Modeling,17-Jan-24,https://deepmind.google/research/publications/66535/,,https://deepmind.google/research/publications/66535/
+Google DeepMind,GATS: Gather-Attend-Scatter,16-Jan-24,https://deepmind.google/research/publications/67846/,,https://deepmind.google/research/publications/67846/
+Google DeepMind,NfgTransformer: Equivariant Representation Learning for Normal-form Games,16-Jan-24,https://deepmind.google/research/publications/40173/,,https://deepmind.google/research/publications/40173/
+Google DeepMind,Approximating Nash Equilibria in Normal-Form Games via Stochastic Optimization,16-Jan-24,https://deepmind.google/research/publications/34213/,,https://deepmind.google/research/publications/34213/
+Google DeepMind,On-Policy Distillation of Language Models: Learning from Self-Generated Mistakes,16-Jan-24,https://deepmind.google/research/publications/48050/,,https://deepmind.google/research/publications/48050/
+Google DeepMind,Generative Adversarial Equilibrium Solvers,16-Jan-24,https://deepmind.google/research/publications/24821/,,https://deepmind.google/research/publications/24821/
+Google DeepMind,GATS: Gather-Attend-Scatter,16-Jan-24,https://deepmind.google/research/publications/67846/,,https://deepmind.google/research/publications/67846/
+Google DeepMind,Learning Planning-compatible Cognitive Maps with Transformers in PartiallyObserved Environments,11-Jan-24,https://deepmind.google/research/publications/63907/,,https://deepmind.google/research/publications/63907/
+Google DeepMind,Distributional reinforcement learning in prefrontal cortex,10-Jan-24,https://deepmind.google/research/publications/2504/,,https://deepmind.google/research/publications/2504/
+Google DeepMind,AutoRT: Embodied Foundation Models for Large Scale Orchestration of Robotic Agents,4-Jan-24,https://deepmind.google/research/publications/48151/,,https://deepmind.google/research/publications/48151/
+Google DeepMind,GenCast: learning skillful ensemble forecasting of medium-range weather,25-Dec-23,https://deepmind.google/research/publications/68149/,,https://deepmind.google/research/publications/68149/
+Google DeepMind,Zero-Shot Metric Depth with a Field-of-View Conditioned Diffusion Model,20-Dec-23,https://deepmind.google/research/publications/63604/,,https://deepmind.google/research/publications/63604/
+Google DeepMind,Equivariant MuZero,19-Dec-23,https://deepmind.google/research/publications/26234/,,https://deepmind.google/research/publications/26234/
+Google DeepMind,Learning Silicon Dopant Transitions in Graphene using Scanning Transmission Electron Microscopy,15-Dec-23,https://deepmind.google/research/publications/48254/,,https://deepmind.google/research/publications/48254/
+Google DeepMind,Meta-in-context learning in large language models,14-Dec-23,https://deepmind.google/research/publications/33809/,,https://deepmind.google/research/publications/33809/
+Google DeepMind,A Definition of Continual Reinforcement Learning,12-Dec-23,https://deepmind.google/research/publications/33910/,,https://deepmind.google/research/publications/33910/
+Google DeepMind,A Simple Recipe for Contrastively Pre-training Video-First Encoders Beyond 16 Frames,12-Dec-23,https://deepmind.google/research/publications/60675/,,https://deepmind.google/research/publications/60675/
+Google DeepMind,Online RL in Linearly qπ-Realizable MDPs Is as Easy as in Linear MDPs If You Learn What to Ignore,12-Dec-23,https://deepmind.google/research/publications/34921/,,https://deepmind.google/research/publications/34921/
+Google DeepMind,Schema-learning and rebinding as mechanisms of in-context learning and emergence,12-Dec-23,https://deepmind.google/research/publications/35122/,,https://deepmind.google/research/publications/35122/
+Google DeepMind,Feature Likelihood Divergence: Evaluating the Generalization of Generative Models Using Samples,10-Dec-23,https://deepmind.google/research/publications/31486/,,https://deepmind.google/research/publications/31486/
+Google DeepMind,Improving neural network representations using human similarity judgments,10-Dec-23,https://deepmind.google/research/publications/33708/,,https://deepmind.google/research/publications/33708/
+Google DeepMind,Optimal Preconditioning and Fisher Adaptive Langevin Sampling,10-Dec-23,https://deepmind.google/research/publications/34617/,,https://deepmind.google/research/publications/34617/
+Google DeepMind,Passive learning of active causal strategies in agents and language models,10-Dec-23,https://deepmind.google/research/publications/33709/,,https://deepmind.google/research/publications/33709/
+Google DeepMind,Optimization and Evaluation of Fine-grained Jaccard Indexes for Semantic Segmentation,10-Dec-23,https://deepmind.google/research/publications/37041/,,https://deepmind.google/research/publications/37041/
+Google DeepMind,Probabilistic Inference in Reinforcement Learning Done Right,10-Dec-23,https://deepmind.google/research/publications/34719/,,https://deepmind.google/research/publications/34719/
+Google DeepMind,Towards In-context Scene Understanding,10-Dec-23,https://deepmind.google/research/publications/32698/,,https://deepmind.google/research/publications/32698/
+Google DeepMind,Distributional Bellman Operators over Mean-embeddings,9-Dec-23,https://deepmind.google/research/publications/42395/,,https://deepmind.google/research/publications/42395/
+Google DeepMind,POMRL: No-Regret Learning-to-Plan with IncreasingHorizons,8-Dec-23,https://deepmind.google/research/publications/53605/,,https://deepmind.google/research/publications/53605/
+Google DeepMind,Revisiting Dynamic Evaluation:Online Adaptation for LLMs,7-Dec-23,https://deepmind.google/research/publications/49871/,,https://deepmind.google/research/publications/49871/
+Google DeepMind,"SEAHORSE: A Multilingual, Multifaceted Dataset for Summarization Evaluation",6-Dec-23,https://deepmind.google/research/publications/82492/,,https://deepmind.google/research/publications/82492/
+Google DeepMind,"Generative agent-based modeling with actions grounded in physical, social, or digital space using Concordia",6-Dec-23,https://deepmind.google/research/publications/64717/,,https://deepmind.google/research/publications/64717/
+Google DeepMind,A Benchmark for Reasoning with Spatial Prepositions,6-Dec-23,https://deepmind.google/research/publications/82087/,,https://deepmind.google/research/publications/82087/
+Google DeepMind,Gaussian Process Probes (GPP) for Uncertainty-Aware Probing,5-Dec-23,https://deepmind.google/research/publications/83506/,,https://deepmind.google/research/publications/83506/
+Google DeepMind,RoboCat: A Self-Improving Foundation Agent for Robotic Manipulation,5-Dec-23,https://deepmind.google/research/publications/35829/,,https://deepmind.google/research/publications/35829/
+Google DeepMind,Small batch deep reinforcement learning,4-Dec-23,https://deepmind.google/research/publications/82494/,,https://deepmind.google/research/publications/82494/
+Google DeepMind,RLHF and IIA: Perverse Incentives,2-Dec-23,https://deepmind.google/research/publications/63806/,,https://deepmind.google/research/publications/63806/
+Google DeepMind,Accelerating Neural Field Training via Langevin Monte-Carlo Sampling,29-Nov-23,https://deepmind.google/research/publications/61180/,,https://deepmind.google/research/publications/61180/
+Google DeepMind,Universal Self-Consistency with Large Language Models,29-Nov-23,https://deepmind.google/research/publications/50879/,,https://deepmind.google/research/publications/50879/
+Google DeepMind,Unsupervised Keypoints with Stable Diffusion,29-Nov-23,https://deepmind.google/research/publications/61281/,,https://deepmind.google/research/publications/61281/
+Google DeepMind,SODA: Bottleneck Diffusion Models for Representation Learning,29-Nov-23,https://deepmind.google/research/publications/44213/,,https://deepmind.google/research/publications/44213/
+Google DeepMind,Replay Across Experiments,27-Nov-23,https://deepmind.google/research/publications/50575/,,https://deepmind.google/research/publications/50575/
+Google DeepMind,No agent is an island: A social path to human-like artificial intelligence,17-Nov-23,https://deepmind.google/research/publications/25830/,,https://deepmind.google/research/publications/25830/
+Google DeepMind,Report of the 1st Workshop on Generative AI and Law,14-Nov-23,https://deepmind.google/research/publications/58352/,,https://deepmind.google/research/publications/58352/
+Google DeepMind,DiLoCo: Distributed Low-Communication Training of Language Models,14-Nov-23,https://deepmind.google/research/publications/57039/,,https://deepmind.google/research/publications/57039/
+Google DeepMind,GraphCast: Learned Global Weather Forecasting,14-Nov-23,https://deepmind.google/research/publications/22598/,,https://deepmind.google/research/publications/22598/
+Google DeepMind,"Emotions and courtship help bonded pairs cooperate, but emotional agents are vulnerable to deceit",10-Nov-23,https://deepmind.google/research/publications/35526/,,https://deepmind.google/research/publications/35526/
+Google DeepMind,Role Play with Large Language Models,8-Nov-23,https://deepmind.google/research/publications/35223/,,https://deepmind.google/research/publications/35223/
+Google DeepMind,Finding Increasingly Large Extremal Graphs with AlphaZero and Tabu Search,6-Nov-23,https://deepmind.google/research/publications/44214/,,https://deepmind.google/research/publications/44214/
+Google DeepMind,Grammar Prompting for Domain-Specific Language Generation with Large Language Models,3-Nov-23,https://deepmind.google/research/publications/83400/,,https://deepmind.google/research/publications/83400/
+Google DeepMind,RT-Trajectory: Robotic Task Generalization via Hindsight Trajectory Sketches,3-Nov-23,https://deepmind.google/research/publications/48757/,,https://deepmind.google/research/publications/48757/
+Google DeepMind,Optimistic Natural Policy Gradient: a Simple Efficient Policy Optimization Framework for Online RL,2-Nov-23,https://deepmind.google/research/publications/24720/,,https://deepmind.google/research/publications/24720/
+Google DeepMind,Optimistic Meta-Gradients,2-Nov-23,https://deepmind.google/research/publications/5642/,,https://deepmind.google/research/publications/5642/
+Google DeepMind,RoboVQA: Multimodal Long-Horizon Reasoning for Robotics,1-Nov-23,https://deepmind.google/research/publications/63605/,,https://deepmind.google/research/publications/63605/
+Google DeepMind,Population-based Evaluation in Repeated Rock-Paper-Scissors as a Benchmark for Multiagent Reinforcement Learning,30-Oct-23,https://deepmind.google/research/publications/22497/,,https://deepmind.google/research/publications/22497/
+Google DeepMind,Generative replay for compositional visual understanding in the prefrontal-hippocampal circuit,26-Oct-23,https://deepmind.google/research/publications/5630/,,https://deepmind.google/research/publications/5630/
+Google DeepMind,Scalable Neural Network Kernels,20-Oct-23,https://deepmind.google/research/publications/50474/,,https://deepmind.google/research/publications/50474/
+Google DeepMind,Scalable Diffusion for Materials Generation,18-Oct-23,https://deepmind.google/research/publications/51282/,,https://deepmind.google/research/publications/51282/
+Google DeepMind,Sociotechnical Safety Evaluation of generative AI systems,18-Oct-23,https://deepmind.google/research/publications/45425/,,https://deepmind.google/research/publications/45425/
+Google DeepMind,DyST: Towards Dynamic Neural Scene Representations on Real-World Videos,9-Oct-23,https://deepmind.google/research/publications/48657/,,https://deepmind.google/research/publications/48657/
+Google DeepMind,Step-Back Prompting Enables Reasoning via Abstraction in Large Language Models,9-Oct-23,https://deepmind.google/research/publications/50274/,,https://deepmind.google/research/publications/50274/
+Google DeepMind,Learning Interactive Real-World Simulator,9-Oct-23,https://deepmind.google/research/publications/47545/,,https://deepmind.google/research/publications/47545/
+Google DeepMind,Repelling Random Walks,7-Oct-23,https://deepmind.google/research/publications/48455/,,https://deepmind.google/research/publications/48455/
+Google DeepMind,Universal Graph Random Features,7-Oct-23,https://deepmind.google/research/publications/48555/,,https://deepmind.google/research/publications/48555/
+Google DeepMind,Assessing LLMs on Climate Information,5-Oct-23,https://deepmind.google/research/publications/43202/,,https://deepmind.google/research/publications/43202/
+Google DeepMind,An Impossibility Theorem in Game Dynamics,5-Oct-23,https://deepmind.google/research/publications/29062/,,https://deepmind.google/research/publications/29062/
+Google DeepMind,Large Language Models Cannot Self-Correct Reasoning Yet,3-Oct-23,https://deepmind.google/research/publications/48252/,,https://deepmind.google/research/publications/48252/
+Google DeepMind,Large Language Models as Analogical Reasoners,3-Oct-23,https://deepmind.google/research/publications/51283/,,https://deepmind.google/research/publications/51283/
+Google DeepMind,TAPIR: Tracking Any Point with per-frame Initialization and temporal Refinement,2-Oct-23,https://deepmind.google/research/publications/26336/,,https://deepmind.google/research/publications/26336/
+Google DeepMind,3D Neural Embedding Likelihood: Probabilistic Inverse Graphics for Robust 6D Pose Estimation,2-Oct-23,https://deepmind.google/research/publications/14720/,,https://deepmind.google/research/publications/14720/
+Google DeepMind,Theoretical and Practical Perspectives on what Influence Functions Do,23-Sep-23,https://deepmind.google/research/publications/56635/,,https://deepmind.google/research/publications/56635/
+Google DeepMind,Self-Predictive Universal AI,21-Sep-23,https://deepmind.google/research/publications/34416/,,https://deepmind.google/research/publications/34416/
+Google DeepMind,Accurate proteome-wide missense variant effect prediction with AlphaMissense,19-Sep-23,https://deepmind.google/research/publications/21083/,,https://deepmind.google/research/publications/21083/
+Google DeepMind,Revisiting Energy Based Models as Policies: Ranking Noise Contrastive Estimation and Interpolating Energy Models,11-Sep-23,https://deepmind.google/research/publications/82491/,,https://deepmind.google/research/publications/82491/
+Google DeepMind,Massively Scalable Inverse Reinforcement Learning for Route Optimization,10-Sep-23,https://deepmind.google/research/publications/34011/,,https://deepmind.google/research/publications/34011/
+Google DeepMind,Estimating Gibbs free energies via isobaric-isothermal flows,4-Sep-23,https://deepmind.google/research/publications/16942/,,https://deepmind.google/research/publications/16942/
+Google DeepMind,RoboTAP: Tracking Arbitrary Points for Few-Shot Visual Imitation,31-Aug-23,https://deepmind.google/research/publications/38759/,,https://deepmind.google/research/publications/38759/
+Google DeepMind,Natural Quantum Monte Carlo Computation of Excited States,31-Aug-23,https://deepmind.google/research/publications/41485/,,https://deepmind.google/research/publications/41485/
+Google DeepMind,Nevis’22: A Stream of 100 Tasks Sampled from 30 Years of Computer Vision Research,22-Aug-23,https://deepmind.google/research/publications/32195/,,https://deepmind.google/research/publications/32195/
+Google DeepMind,Levin Tree Search with Context Models,19-Aug-23,https://deepmind.google/research/publications/21589/,,https://deepmind.google/research/publications/21589/
+Google DeepMind,Advances in ML-based sampling for Lattice-QCD,4-Aug-23,https://deepmind.google/research/publications/8258/,,https://deepmind.google/research/publications/8258/
+Google DeepMind,Line Search for Convex Minimization,1-Aug-23,https://deepmind.google/research/publications/37648/,,https://deepmind.google/research/publications/37648/
+Google DeepMind,Search-Improved Game-Theoretic Multiagent Reinforcement Learning in General and Negotiation Games,,https://arxiv.org/abs/2302.00797,,https://arxiv.org/abs/2302.00797
+Google DeepMind,Is forgetting less a good inductive bias for forward transfer?,,https://openreview.net/forum?id=dL35lx-mTEs,,https://openreview.net/forum?id=dL35lx-mTEs
+Google DeepMind,Meta-Learning Black-Box Optimization via Black-Box Optimization,,https://openreview.net/forum?id=mFDU0fP3EQH,,https://openreview.net/forum?id=mFDU0fP3EQH
+Google DeepMind,"Equilibrium-Invariant Embedding, Metric Space, and Fundamental Set of 2×2 Normal-Form Games",,https://arxiv.org/pdf/2304.09978,,https://arxiv.org/pdf/2304.09978
+Google DeepMind,Fitting Autoregressive Graph Generative Models through Maximum Likelihood Estimation,,https://jmlr.org/papers/volume24/22-0337/22-0337,,https://jmlr.org/papers/volume24/22-0337/22-0337
+Google DeepMind,Rethinking Evaluation Practices in Visual Question Answering: A Case Study on Out-of-Distribution Generalization,,https://arxiv.org/abs/2205.12191,,https://arxiv.org/abs/2205.12191
+Google DeepMind,Three ways to improve feature alignment for open vocabulary detection,,https://arxiv.org/pdf/2303.13518,,https://arxiv.org/pdf/2303.13518
+Google DeepMind,Fast exploration and learning of latent graphs with aliased observations,,https://arxiv.org/pdf/2303.07397,,https://arxiv.org/pdf/2303.07397
+Google DeepMind,Evaluating Number Discrimination in Deep Neural Networks for Vision,,https://arxiv.org/abs/2303.07172,,https://arxiv.org/abs/2303.07172
+Google DeepMind,Denoising diffusion samplers,,https://arxiv.org/pdf/2302.13834,,https://arxiv.org/pdf/2302.13834
+Google DeepMind,Leveraging Jumpy Models for Planning and Fast Learning in Robotic Domains,,https://www.deepmind.com/research#,,https://www.deepmind.com/research#
+Google DeepMind,"Graph schemas as abstractions for transfer learning, inference, and planning",,https://arxiv.org/pdf/2302.07350,,https://arxiv.org/pdf/2302.07350
+Google DeepMind,Universal Agent Mixtures and the Geometry of Intelligence,,https://arxiv.org/abs/2302.06083,,https://arxiv.org/abs/2302.06083
+Google DeepMind,Scaling Goal-based Exploration via Pruning Proto-goals,,https://arxiv.org/pdf/2302.04693,,https://arxiv.org/pdf/2302.04693
+Google DeepMind,Equivariant MuZero,,https://arxiv.org/pdf/2302.04798,,https://arxiv.org/pdf/2302.04798
+Google DeepMind,3D Neural Embedding Likelihood for Robust Sim-to-Real Transfer in Inverse Graphics,,https://www.deepmind.com/research#,,https://www.deepmind.com/research#
+Google DeepMind,Exploration via Epistemic Value Estimation,,https://arxiv.org/pdf/2303.04012,,https://arxiv.org/pdf/2303.04012
+Google DeepMind,Diversity Through Exclusion (DTE): Niche Identification for Reinforcement Learning through Value-Decomposition,,https://arxiv.org/pdf/2302.01180,,https://arxiv.org/pdf/2302.01180
+Google DeepMind,Reinforcement Learning for Minimizing Age of Information over Wireless Links,,https://www.deepmind.com/research#,,https://www.deepmind.com/research#
+Google DeepMind,PGMax: Factor Graphs for Discrete Probabilistic Graphical Models and Loopy Belief Propagation in JAX,,https://arxiv.org/pdf/2202.04110,,https://arxiv.org/pdf/2202.04110
+Google DeepMind,Learning Noisy OR Bayesian Networks with Max-Product Belief Propagation,,https://arxiv.org/pdf/2302.00099,,https://arxiv.org/pdf/2302.00099
+Google DeepMind,Dual Algorithmic Reasoning,,https://openreview.net/forum?id=hhvkdRdWt1F,,https://openreview.net/forum?id=hhvkdRdWt1F
+Google DeepMind,Distilling Internet-Scale Vision-Language Models into Embodied Agents,,https://arxiv.org/abs/2301.12507,,https://arxiv.org/abs/2301.12507
+Google DeepMind,Pragmatic Fairness: Developing Policies with Outcome Disparity Control,,https://arxiv.org/pdf/2301.12278,,https://arxiv.org/pdf/2301.12278
+Google DeepMind,On a continuous time model of gradient descent dynamics and instability in deep learning,,https://openreview.net/forum?id=EYrRzKPinA,,https://openreview.net/forum?id=EYrRzKPinA
+Google DeepMind,Discovering Quantum Phase Transitions with Fermionic Neural Networks,,https://www.deepmind.com/research?d907cb24_page=2#,,https://www.deepmind.com/research?d907cb24_page=2#
+Google DeepMind,Transformer Grammars: Augmenting Transformer Language Models with a Syntactic Inductive Bias,,https://www.deepmind.com/research?d907cb24_page=2#,,https://www.deepmind.com/research?d907cb24_page=2#
+Google DeepMind,An empirical study of implicit regularization in deep offline RL,,https://openreview.net/forum?id=HFfJWx60IT,,https://openreview.net/forum?id=HFfJWx60IT
+Google DeepMind,Confident Approximate Policy Iteration for Efficient Local Planning in q^π-realizable MDPs,,https://openreview.net/attachment?id=Q_WPshXgGI9&name=supplementary_material,,https://openreview.net/attachment?id=Q_WPshXgGI9&name=supplementary_material
+Google DeepMind,Particle-Based Score Estimation for Jointly Learning Transition and Observation Models in Autonomous Driving,,https://openreview.net/forum?id=7JVNhaMbZUu,,https://openreview.net/forum?id=7JVNhaMbZUu
+Google DeepMind,ipie: A Python-based Auxiliary-Field Quantum Monte Carlo Program with Flexibility and Efficiency on CPUs and GPUs,,https://www.deepmind.com/research?d907cb24_page=2#,,https://www.deepmind.com/research?d907cb24_page=2#
+Google DeepMind,Score-based generative models learn manifold-like structures with constrained mixing,,https://openreview.net/forum?id=eSZqaIrDLZR,,https://openreview.net/forum?id=eSZqaIrDLZR
+Google DeepMind,Continuous Neural Algorithmic Planners,,https://openreview.net/forum?id=60avttW0Mv,,https://openreview.net/forum?id=60avttW0Mv
+Google DeepMind,Unbiased and Efficient Sampling of Dependency Trees,,https://arxiv.org/pdf/2205.12621,,https://arxiv.org/pdf/2205.12621
+Google DeepMind,Reasoning-Modulated Representations,,https://openreview.net/forum?id=QBGYYu3l3dG,,https://openreview.net/forum?id=QBGYYu3l3dG
+Google DeepMind,BLaDE: Robust Exploration via Diffusion Models,,https://openreview.net/forum?id=cLijWz05L2b,,https://openreview.net/forum?id=cLijWz05L2b
+Google DeepMind,Learning Graph Search Heuristics,,https://openreview.net/forum?id=-xjStp_F9o,,https://openreview.net/forum?id=-xjStp_F9o
+Google DeepMind,Learnable Commutative Monoids for Graph Neural Networks,,https://openreview.net/forum?id=WtFobB28VDey,,https://openreview.net/forum?id=WtFobB28VDey
+Google DeepMind,A Generalist Neural Algorithmic Learner,,https://openreview.net/forum?id=FebadKZf6Gd,,https://openreview.net/forum?id=FebadKZf6Gd
+Google DeepMind,Expander Graph Propagation,,https://openreview.net/forum?id=IKevTLt3rT,,https://openreview.net/forum?id=IKevTLt3rT
+Google DeepMind,Scaffolding cooperation in human groups with deep reinforcement learning,,https://psyarxiv.com/cr58a/download,,https://psyarxiv.com/cr58a/download
+Google DeepMind,Re-assessing Commonsense Knowledge in Large Language Models,,https://aclanthology.org/2022.emnlp-main.812,,https://aclanthology.org/2022.emnlp-main.812
+Google DeepMind,Learning rigid dynamics with face interaction graph networks,,https://arxiv.org/abs/2212.03574,,https://arxiv.org/abs/2212.03574
+Google DeepMind,Learning rigid dynamics with face interaction graph networks,,https://arxiv.org/abs/2212.03574,,https://arxiv.org/abs/2212.03574
+Google DeepMind,Negotiation and honesty in artificial intelligence methods for the board game of Diplomacy,,https://www.nature.com/articles/s41467-022-34473-5,,https://www.nature.com/articles/s41467-022-34473-5
+Google DeepMind,Large-Scale Retrieval for Reinforcement Learning,,https://arxiv.org/pdf/2206.05314,,https://arxiv.org/pdf/2206.05314
+Google DeepMind,A Fourier Approach to Mixture Learning,,https://arxiv.org/abs/2210.02415,,https://arxiv.org/abs/2210.02415
+Google DeepMind,Characteristics of Harmful Text: Towards Rigorous Benchmarking of Language Models,,https://openreview.net/forum?id=u46CbCaLufp,,https://openreview.net/forum?id=u46CbCaLufp
+Google DeepMind,Learning to Navigate Wikipedia by Taking Random Walks,,https://arxiv.org/pdf/2211.00177,,https://arxiv.org/pdf/2211.00177
+Google DeepMind,"Turbocharging Solution Concepts: Solving NEs, CEs and CCEs with Deep Equilibrium Networks",,https://arxiv.org/pdf/2210.09257,,https://arxiv.org/pdf/2210.09257
+Google DeepMind,Semantic Exploration from Language Abstractions and Pretrained Representations,,https://www.deepmind.com/research?d907cb24_page=3#,,https://www.deepmind.com/research?d907cb24_page=3#
+Google DeepMind,Continuous diffusion for categorical data,,https://arxiv.org/pdf/2211.15089,,https://arxiv.org/pdf/2211.15089
+Google DeepMind,Score-Based Diffusion meets Annealed Importance Sampling,,https://arxiv.org/abs/2208.07698,,https://arxiv.org/abs/2208.07698
+Google DeepMind,Fine-tuning language models to find agreement among humans with diverse preferences,,https://arxiv.org/pdf/2211.15006,,https://arxiv.org/pdf/2211.15006
+Google DeepMind,Neural Payoff Machines: Predicting Fair and Stable Payoff Allocations Among Team Members,,https://arxiv.org/pdf/2208.08798,,https://arxiv.org/pdf/2208.08798
+Google DeepMind,Inverse Design for Fluid-Structure Interactions using Graph Network Simulators,,https://openreview.net/forum?id=HaZuqj0Gvp2,,https://openreview.net/forum?id=HaZuqj0Gvp2
+Google DeepMind,Towards combinatorial invariance for Kazhdan-Lusztig polynomials,,https://www.ams.org/journals/ert/2022-26-37/S1088-4165-2022-00624-8/S1088-4165-2022-00624-8,,https://www.ams.org/journals/ert/2022-26-37/S1088-4165-2022-00624-8/S1088-4165-2022-00624-8
+Google DeepMind,Curiosity in hindsight,,https://arxiv.org/pdf/2211.10515,,https://arxiv.org/pdf/2211.10515
+Google DeepMind,Space is a sequence: Structured sequence learning as a unified theory of spatial representation in the hippocampus,,"https://arxiv.org/abs/2212.01508#:~:text=3%20Dec%202022%5D-,Space%20is%20a%20latent%20sequence%3A%20Structured%20sequence%20learning%20as%20a,of%20representation%20in%20the%20hippocampus&text=Fascinating%20and%20puzzling%20phenomena%2C%20such,regularly%20discovered%20in%20the%20hippocampus.",,"https://arxiv.org/abs/2212.01508#:~:text=3%20Dec%202022%5D-,Space%20is%20a%20latent%20sequence%3A%20Structured%20sequence%20learning%20as%20a,of%20representation%20in%20the%20hippocampus&text=Fascinating%20and%20puzzling%20phenomena%2C%20such,regularly%20discovered%20in%20the%20hippocampus."
+Google DeepMind,Communicative Capital: A key resource for human-machine shared agency and collaborative capacity,,https://link.springer.com/content/pdf/10.1007/s00521-022-07948-1,,https://link.springer.com/content/pdf/10.1007/s00521-022-07948-1
+Google DeepMind,Controlling Commercial Cooling Systems Using Reinforcement Learning,,https://arxiv.org/pdf/2211.07357,,https://arxiv.org/pdf/2211.07357
+Google DeepMind,Active Acquisition for Multimodal Temporal Data: A Challenging Decision-Making Task,,https://arxiv.org/pdf/2211.05039,,https://arxiv.org/pdf/2211.05039
+Google DeepMind,What is the simplest model that can account for high-fidelity imitation?,,https://doi.org/10.1017/S0140525X22001364,,https://doi.org/10.1017/S0140525X22001364
+Google DeepMind,A Generalist Agent,,https://openreview.net/forum?id=1ikK0kHjvj,,https://openreview.net/forum?id=1ikK0kHjvj
+Google DeepMind,Over-communicate no more: Situated RL agents learn concise communication protocols,,https://www.deepmind.com/research?d907cb24_page=3#,,https://www.deepmind.com/research?d907cb24_page=3#
+Google DeepMind,Learning to Configure Computer Networks with Neural Algorithmic Reasoning,,https://openreview.net/forum?id=AiY6XvomZV4,,https://openreview.net/forum?id=AiY6XvomZV4
+Google DeepMind,Diagnosing failures of fairness transfer across distribution shift in real-world medical settings,,https://openreview.net/forum?id=K-A4tDJ6HHf,,https://openreview.net/forum?id=K-A4tDJ6HHf
+Google DeepMind,Can language models handle recursively nested grammatical structures? A case study on comparing models and humans,,https://arxiv.org/pdf/2210.15303,,https://arxiv.org/pdf/2210.15303
+Google DeepMind,Categorical SDEs with Simplex Diffusion,,https://arxiv.org/pdf/2210.14784,,https://arxiv.org/pdf/2210.14784
+Google DeepMind,Latent Space Smoothing for Individually Fair Representations,,https://arxiv.org/pdf/2111.13650,,https://arxiv.org/pdf/2111.13650
+Google DeepMind,Testing Independence of Exchangeable Random Variables,,https://arxiv.org/pdf/2210.12392,,https://arxiv.org/pdf/2210.12392
+Google DeepMind,Collaborating with language models for embodied reasoning,,https://larel-workshop.github.io/papers/,,https://larel-workshop.github.io/papers/
+Google DeepMind,Why neural networks find simple solutions: the many regularizers of geometric complexity,,https://openreview.net/forum?id=-ZPeUAJlkEu,,https://openreview.net/forum?id=-ZPeUAJlkEu
+Google DeepMind,Self-supervised video pretraining yields strong image representations,,https://arxiv.org/pdf/2210.06433,,https://arxiv.org/pdf/2210.06433
+Google DeepMind,Beyond Bayes-optimality: meta-learning what you know you don’t know,,https://arxiv.org/pdf/2209.15618,,https://arxiv.org/pdf/2209.15618
+Google DeepMind,Transformers generalize differently from in-context and in-weights information,,https://www.deepmind.com/research?d907cb24_page=4#,,https://www.deepmind.com/research?d907cb24_page=4#
+Google DeepMind,Palm up: Playing in the Latent Manifold for Unsupervised Pretraining,,https://openreview.net/forum?id=6y0lgLb9tny,,https://openreview.net/forum?id=6y0lgLb9tny
+Google DeepMind,Game Theoretic Rating in n-player general-sum games with Equilibria,,https://arxiv.org/pdf/2210.02205,,https://arxiv.org/pdf/2210.02205
+Google DeepMind,Optimistic posterior sampling for reinforcement learning with few samples and tight guarantees,,https://arxiv.org/pdf/2209.14414,,https://arxiv.org/pdf/2209.14414
+Google DeepMind,Co-Writing Screenplays and Theatre Scripts with Language Models: An Evaluation by Industry Professionals,,https://arxiv.org/pdf/2209.14958,,https://arxiv.org/pdf/2209.14958
+Google DeepMind,Where Should I Spend My FLOPS? Efficiency Evaluations of Visual Pre-training Methods,,https://arxiv.org/pdf/2209.15589,,https://arxiv.org/pdf/2209.15589
+Google DeepMind,COptiDICE: Offline Constrained Reinforcement Learning via Stationary Distribution Correction Estimation,,https://arxiv.org/pdf/2204.08957,,https://arxiv.org/pdf/2204.08957
+Google DeepMind,Learned Force Fields Are Ready For Ground State Catalyst Discovery,,https://arxiv.org/pdf/2209.12466,,https://arxiv.org/pdf/2209.12466
+Google DeepMind,Structure of the PAPP-A-IGFBP5 complex reveals mechanism of substrate recognition,,https://www.nature.com/articles/s41467-022-33175-2,,https://www.nature.com/articles/s41467-022-33175-2
+Google DeepMind,Discovering Policies with DOMiNO: Diversity Optimization Maintaining Near Optimality,,https://ewrl.files.wordpress.com/2022/09/discovering_policies_with_domino,,https://ewrl.files.wordpress.com/2022/09/discovering_policies_with_domino
+Google DeepMind,On Reward Binarisation and Bayesian Agents,,https://ewrl.files.wordpress.com/2022/09/ewrl22_submission,,https://ewrl.files.wordpress.com/2022/09/ewrl22_submission
+Google DeepMind,Optimizing Industrial Cooling Systems with Hierarchical Reinforcement Learning,,https://arxiv.org/pdf/2209.08112,,https://arxiv.org/pdf/2209.08112
+Google DeepMind,Leveraging Natural Language and Program Abstractions to Instill Human Inductive Biases in Machines,,https://openreview.net/forum?id=buXZ7nIqiwE,,https://openreview.net/forum?id=buXZ7nIqiwE
+Google DeepMind,"Developing, evaluating and scaling learning agents in multi-agent environments",,https://www.deepmind.com/research?d907cb24_page=4#,,https://www.deepmind.com/research?d907cb24_page=4#
+Google DeepMind,From Motor Control to Team Play in Simulated Humanoid Football,,https://www.science.org/stoken/author-tokens/ST-751/full,,https://www.science.org/stoken/author-tokens/ST-751/full
+Google DeepMind,Of Correlated Equilibria in Mean-Field Games,,https://arxiv.org/pdf/2208.10138,,https://arxiv.org/pdf/2208.10138
+Google DeepMind,Probing Transfer in Deep Reinforcement Learning without Task Engineering,,https://drive.google.com/file/d/1WXes5w8BB4ep53FzBwwAU8JWhVSbalsZ/view?usp=sharing,,https://drive.google.com/file/d/1WXes5w8BB4ep53FzBwwAU8JWhVSbalsZ/view?usp=sharing
+Google DeepMind,Reinforcement Learning with Information Theoretic Actuation,,https://drive.google.com/file/d/1x0vkR64LQjH1pzP8cF-YsZ8FBNnEKwco/view,,https://drive.google.com/file/d/1x0vkR64LQjH1pzP8cF-YsZ8FBNnEKwco/view
+Google DeepMind,Using the Veil of Ignorance to align AI systems with principles of justice,,https://www.pnas.org/doi/pdf/10.1073/pnas.2213709120?download=true,,https://www.pnas.org/doi/pdf/10.1073/pnas.2213709120?download=true
+Google DeepMind,Meta-Learning Sparse Compression Networks,,https://arxiv.org/abs/2205.08957,,https://arxiv.org/abs/2205.08957
+Google DeepMind,How fair is your graph? Addressing fairness concerns in neuroimaging studies,,https://static1.squarespace.com/static/59d5ac1780bd5ef9c396eda6/t/62e976e55b86be5eedaf3e74/1659467496923/61+MHLC_61_Camera_Ready,,https://static1.squarespace.com/static/59d5ac1780bd5ef9c396eda6/t/62e976e55b86be5eedaf3e74/1659467496923/61+MHLC_61_Camera_Ready
+Google DeepMind,Object discovery and representation networks,,https://arxiv.org/pdf/2203.08777,,https://arxiv.org/pdf/2203.08777
+Google DeepMind,Learning composable world models for physical prediction,,https://escholarship.org/content/qt615297fs/qt615297fs_noSplash_50ea2e65f465e4cf564fa5ec8bd65f48,,https://escholarship.org/content/qt615297fs/qt615297fs_noSplash_50ea2e65f465e4cf564fa5ec8bd65f48
+Google DeepMind,Semi-analytical Industrial Cooling System Model for Reinforcement Learning,,https://arxiv.org/pdf/2207.13131,,https://arxiv.org/pdf/2207.13131
+Google DeepMind,Stochastic Parallelizable Eigengap Dilation for Large Graph Clustering,,https://drive.google.com/file/d/15JZMbiAsZe9FfITJH4aQI2NzY3INvimS/view,,https://drive.google.com/file/d/15JZMbiAsZe9FfITJH4aQI2NzY3INvimS/view
+Google DeepMind,Generalised Policy Improvement with Geometric Policy Composition,,https://arxiv.org/pdf/2206.08736,,https://arxiv.org/pdf/2206.08736
+Google DeepMind,Formal Algorithms for Transformers,,https://arxiv.org/pdf/2207.09238,,https://arxiv.org/pdf/2207.09238
+Google DeepMind,Hindering Adversarial Attacks with Implicit Neural Representations,,https://proceedings.mlr.press/v162/rusu22a/rusu22a,,https://proceedings.mlr.press/v162/rusu22a/rusu22a
+Google DeepMind,Towards Coherent and Consistent Use of Entities in Narrative Generation,,https://arxiv.org/pdf/2202.01709,,https://arxiv.org/pdf/2202.01709
+Google DeepMind,From Dirichlet to Rubin: Optimistic exploration in RL without bonuses,,https://arxiv.org/pdf/2205.07704,,https://arxiv.org/pdf/2205.07704
+Google DeepMind,Importance Weighting Approach in Kernel Bayes' Rule,,https://arxiv.org/pdf/2202.02474,,https://arxiv.org/pdf/2202.02474
+Google DeepMind,Language models show human-like content effects on reasoning,,https://arxiv.org/pdf/2207.07051,,https://arxiv.org/pdf/2207.07051
+Google DeepMind,Intuitive physics learning in a deep-learning model inspired by developmental psychology,,https://www.nature.com/articles/s41562-022-01394-8,,https://www.nature.com/articles/s41562-022-01394-8
+Google DeepMind,Affinity Aware Graph Networks,,https://arxiv.org/pdf/2206.11941,,https://arxiv.org/pdf/2206.11941
+Google DeepMind,Scaling Gaussian process optimization by evaluating a few unique candidates multiple times,,https://arxiv.org/pdf/2201.12909,,https://arxiv.org/pdf/2201.12909
+Google DeepMind,Can language models learn from explanations in context?,,https://aclanthology.org/2022.findings-emnlp.38,,https://aclanthology.org/2022.findings-emnlp.38
+Google DeepMind,"Subverting machines, fluctuating identities: Re-learning human categorization",,https://arxiv.org/pdf/2205.13740,,https://arxiv.org/pdf/2205.13740
+Google DeepMind,Input-level Inductive Biases for 3D Reconstruction,,https://arxiv.org/pdf/2112.03243,,https://arxiv.org/pdf/2112.03243
+Google DeepMind,BYOL-Explore: Exploration with Bootstrapped Prediction,,https://arxiv.org/pdf/2206.08332,,https://arxiv.org/pdf/2206.08332
+Google DeepMind,Unlocking High-Accuracy Differentially Private Image Classification through Scale,,https://arxiv.org/pdf/2204.13650,,https://arxiv.org/pdf/2204.13650
+Google DeepMind,Sheaf Neural Networks with Connection Laplacians,,https://arxiv.org/pdf/2206.08702,,https://arxiv.org/pdf/2206.08702
+Google DeepMind,BYOL-Explore: Exploration by bootstrapped prediction,,https://arxiv.org/abs/2206.08332,,https://arxiv.org/abs/2206.08332
+Google DeepMind,"Perceiver AR: general-purpose, long-context autoregressive generation",,https://arxiv.org/pdf/2202.07765,,https://arxiv.org/pdf/2202.07765
+Google DeepMind,Simplex Neural Population Learning: Any-Mixture Bayes-Optimality in Symmetric Zero-sum Games,,https://proceedings.mlr.press/v162/liu22h.html,,https://proceedings.mlr.press/v162/liu22h.html
+Google DeepMind,Expressing Non-Markov Reward to a Markov Agent,,https://david-abel.github.io/papers/rldm2022_markov,,https://david-abel.github.io/papers/rldm2022_markov
+Google DeepMind,Towards Situated Communication in Multi-Step Interactions: Time is a Key Pressure in Communication Emergence,,https://escholarship.org/uc/item/61k7486v,,https://escholarship.org/uc/item/61k7486v
+Google DeepMind,An EigenGame for the Generalized Eigenvalue Problem,,https://arxiv.org/pdf/2206.04993,,https://arxiv.org/pdf/2206.04993
+Google DeepMind,Situated communication: a solution to over-communication between artificial agents,,https://openreview.net/forum?id=HLqzzQWA7Z9,,https://openreview.net/forum?id=HLqzzQWA7Z9
+Google DeepMind,Communication Emergence in a Goal-Oriented Environment:Towards Situated Communication in Multi-Step Interactions,,https://www.deepmind.com/research?d907cb24_page=5#,,https://www.deepmind.com/research?d907cb24_page=5#
+Google DeepMind,A Simple Approach for State-Action Abstraction\\using a Learned MDP Homomorphism,,https://arxiv.org/pdf/2209.06356,,https://arxiv.org/pdf/2209.06356
+Google DeepMind,Utility of Equivariant Message Passing in Cortical Mesh Segmentation,,https://arxiv.org/pdf/2206.03164,,https://arxiv.org/pdf/2206.03164
+Google DeepMind,StreamingQA: A Benchmark for Adaptation to New Knowledge over Time in Question Answering Models,,https://arxiv.org/pdf/2205.11388,,https://arxiv.org/pdf/2205.11388
+Google DeepMind,The CLRS Algorithmic Reasoning Benchmark,,https://arxiv.org/pdf/2205.15659,,https://arxiv.org/pdf/2205.15659
+Google DeepMind,The CLRS Algorithmic Reasoning Benchmark,,https://arxiv.org/pdf/2205.15659,,https://arxiv.org/pdf/2205.15659
+Google DeepMind,Uniqueness and Complexity of Inverse MDP Models,,https://arxiv.org/pdf/2206.01192,,https://arxiv.org/pdf/2206.01192
+Google DeepMind,Tell me why! Explanations support learning relational and causal structure,,https://arxiv.org/pdf/2112.03753,,https://arxiv.org/pdf/2112.03753
+Google DeepMind,Objective Robustness in Deep Reinforcement Learning,,https://arxiv.org/pdf/2105.14111,,https://arxiv.org/pdf/2105.14111
+Google DeepMind,Evaluating Multimodal Interactive Agents,,https://arxiv.org/abs/2205.13274,,https://arxiv.org/abs/2205.13274
+Google DeepMind,Dynamic language understanding: adaptation to new knowledge in parametric and semi-parametric models,,https://arxiv.org/pdf/2205.11388,,https://arxiv.org/pdf/2205.11388
+Google DeepMind,Contextual Information-Directed Sampling,,https://arxiv.org/pdf/2205.10895,,https://arxiv.org/pdf/2205.10895
+Google DeepMind,Pre-training via Denoising for Molecular Property Prediction,,https://arxiv.org/pdf/2206.00133,,https://arxiv.org/pdf/2206.00133
+Google DeepMind,MultiScale MeshGraphNets,,https://openreview.net/forum?id=G3TRIsmMhhf,,https://openreview.net/forum?id=G3TRIsmMhhf
+Google DeepMind,CLIP-CLOP: CLIP-Guided Collage and Photomontage,,https://arxiv.org/pdf/2205.03146,,https://arxiv.org/pdf/2205.03146
+Google DeepMind,Selection-Inference: Iterative Interpretable Reasoning Module,,https://arxiv.org/pdf/2205.09712,,https://arxiv.org/pdf/2205.09712
+Google DeepMind,Emergent Bartering Behaviour in Multi-Agent Reinforcement Learning,,https://arxiv.org/pdf/2205.06760,,https://arxiv.org/pdf/2205.06760
+Google DeepMind,Normalizing flows for atomic solids,,https://iopscience.iop.org/article/10.1088/2632-2153/ac6b16/pdf,,https://iopscience.iop.org/article/10.1088/2632-2153/ac6b16/pdf
+Google DeepMind,Constraint-based graph network simulator,,https://arxiv.org/pdf/2112.09161,,https://arxiv.org/pdf/2112.09161
+Google DeepMind,Biased Gradient Estimate with Drastic Variance Reduction for Meta Reinforcement Learning,,https://arxiv.org/abs/2112.07328,,https://arxiv.org/abs/2112.07328
+Google DeepMind,Warmth and competence in human-agent cooperation,,https://arxiv.org/pdf/2201.13448,,https://arxiv.org/pdf/2201.13448
+Google DeepMind,Active offline policy selection,,https://arxiv.org/pdf/2106.10251,,https://arxiv.org/pdf/2106.10251
+Google DeepMind,Perception Shapes Language - Which Concepts Evolve Between Heterogeneous Agents? - Communicating Movement Instructions For Agents With Widely Different Time Scopes,,https://openreview.net/forum?id=BnfgM7-0mW5,,https://openreview.net/forum?id=BnfgM7-0mW5
+Google DeepMind,Learning transferable motor skills with hierarchical latent mixture policies,,https://openreview.net/forum?id=qTHBE7E9iej,,https://openreview.net/forum?id=qTHBE7E9iej
+Google DeepMind,The prospects and opportunities of protein structure prediction with AI,,https://www.deepmind.com/research?d907cb24_page=6#,,https://www.deepmind.com/research?d907cb24_page=6#
+Google DeepMind,Measuring CLEVRness: Black-box Testing of Visual Reasoning Models,,https://openreview.net/forum?id=UtGtoS4CYU,,https://openreview.net/forum?id=UtGtoS4CYU
+Google DeepMind,Fair Normalizing Flows,,https://openreview.net/forum?id=BrFIKuxrZE,,https://openreview.net/forum?id=BrFIKuxrZE
+Google DeepMind,Data Distributional Properties Drive Emergent Few-Shot Learning in Transformers,,https://arxiv.org/pdf/2205.05055,,https://arxiv.org/pdf/2205.05055
+Google DeepMind,A Brief Guide to Designing and Evaluating Human-Centered Interactive Machine Learning,,https://arxiv.org/pdf/2204.09622,,https://arxiv.org/pdf/2204.09622
+Google DeepMind,Offline Distillation for Robot Lifelong Learning with Imbalanced Experience,,https://arxiv.org/pdf/2204.05893,,https://arxiv.org/pdf/2204.05893
+Google DeepMind,An empirical analysis of compute-optimal large language model training,,https://arxiv.org/pdf/2203.15556,,https://arxiv.org/pdf/2203.15556
+Google DeepMind,Learning heuristics for A*,,https://arxiv.org/pdf/2204.08938,,https://arxiv.org/pdf/2204.08938
+Google DeepMind,From eye-blinks to state construction: diagnostic benchmarks for online representation learning,,https://arxiv.org/pdf/2011.04590,,https://arxiv.org/pdf/2011.04590
+Google DeepMind,Towards better visual explanations for deep image classifiers,,https://www.deepmind.com/research?d907cb24_page=7#,,https://www.deepmind.com/research?d907cb24_page=7#
+Google DeepMind,Imitate and Repurpose: Learning Reusable Robot Movement Skills From Human and Animal Behaviors,,https://arxiv.org/pdf/2203.17138,,https://arxiv.org/pdf/2203.17138
+Google DeepMind,Investigating the Properties of Neural Network Representations in Reinforcement Learning,,https://arxiv.org/pdf/2203.15955,,https://arxiv.org/pdf/2203.15955
+Google DeepMind,Graph Neural Networks are Dynamic Programmers,,https://openreview.net/forum?id=wu1Za9dY1GY,,https://openreview.net/forum?id=wu1Za9dY1GY
+Google DeepMind,Marginalized operators for off-policy reinforcement learning,,https://arxiv.org/pdf/2203.16177,,https://arxiv.org/pdf/2203.16177
+Google DeepMind,An adaptive and efficient multi-goal exploration,,https://arxiv.org/pdf/2111.12045,,https://arxiv.org/pdf/2111.12045
+Google DeepMind,Your Policy Regularizer is Secretly an Adversary,,https://arxiv.org/pdf/2203.12592,,https://arxiv.org/pdf/2203.12592
+Google DeepMind,Scalable Deep Reinforcement Learning Algorithms for Mean Field Games,,https://arxiv.org/pdf/2203.11973,,https://arxiv.org/pdf/2203.11973
+Google DeepMind,Why Fair Labels Can Yield Unfair Predictions: Graphical Conditions for Introduced Unfairness,,https://arxiv.org/pdf/2202.10816,,https://arxiv.org/pdf/2202.10816
+Google DeepMind,Quantifying the effects of environment and population diversity in multi-agent reinforcement learning,,https://link.springer.com/content/pdf/10.1007/s10458-022-09548-8,,https://link.springer.com/content/pdf/10.1007/s10458-022-09548-8
+Google DeepMind,The Frost Hollow Experiments: Pavlovian Signalling as a Path to Coordination and Communication Between Agents,,https://arxiv.org/pdf/2203.09498,,https://arxiv.org/pdf/2203.09498
+Google DeepMind,GopherCite: Teaching language models to support answers with verified quotes,,https://dpmd.ai/GopherCite-paper,,https://dpmd.ai/GopherCite-paper
+Google DeepMind,Zipfian Environments for Reinforcement Learning,,https://arxiv.org/abs/2203.08222,,https://arxiv.org/abs/2203.08222
+Google DeepMind,Annealed Importance Sampling Meets Score Matching,,https://openreview.net/forum?id=H43MpnN_vZ9,,https://openreview.net/forum?id=H43MpnN_vZ9
+Google DeepMind,Meta-Gradients in Nonstationary Environments,,https://openreview.net/forum?id=SlzBXwZIZ9,,https://openreview.net/forum?id=SlzBXwZIZ9
+Google DeepMind,Reconstructing Training Data with Informed Adversaries: Attacks and Mitigations,,https://arxiv.org/pdf/2201.04845,,https://arxiv.org/pdf/2201.04845
+Google DeepMind,Learning Robust Real-Time Cultural Transmission without Human Data,,https://arxiv.org/pdf/2203.00715,,https://arxiv.org/pdf/2203.00715
+Google DeepMind,The Good Shepherd: An Oracle Agent for Mechanism Design,,https://openreview.net/forum?id=HGNLs51peq,,https://openreview.net/forum?id=HGNLs51peq
+Google DeepMind,HCMD-zero: Learning Value-Aligned Mechanisms from Data,,https://openreview.net/forum?id=rZBLs51ax9,,https://openreview.net/forum?id=rZBLs51ax9
+Google DeepMind,Learning Equilibria in Mean-Field Games: Introducing Mean-Field PSRO,,https://arxiv.org/pdf/2111.08350,,https://arxiv.org/pdf/2111.08350
+Google DeepMind,Probing Image-Language Transformers for Verb Understanding,,https://arxiv.org/pdf/2106.09141,,https://arxiv.org/pdf/2106.09141
+Google DeepMind,Message passing all the way up,,https://arxiv.org/pdf/2202.11097,,https://arxiv.org/pdf/2202.11097
+Google DeepMind,Magnetic Control of Tokamak Plasmas Through Deep Reinforcement Learning,,https://www.deepmind.com/research?d907cb24_page=8#,,https://www.deepmind.com/research?d907cb24_page=8#
+Google DeepMind,Retrieval-Augmented Reinforcement Learning,,https://arxiv.org/pdf/2202.08417,,https://arxiv.org/pdf/2202.08417
+Google DeepMind,A data-driven approach for learning to control computers,,https://arxiv.org/pdf/2202.08137,,https://arxiv.org/pdf/2202.08137
+Google DeepMind,Large-scale representation learning on graphs via bootstrapping,,https://arxiv.org/abs/2102.06514,,https://arxiv.org/abs/2102.06514
+Google DeepMind,https://arxiv.org/abs/2202.05963,,https://arxiv.org/pdf/2202.05963,,https://arxiv.org/pdf/2202.05963
+Google DeepMind,Abstraction for Deep Reinforcement Learning,,https://arxiv.org/pdf/2202.05839,,https://arxiv.org/pdf/2202.05839
+Google DeepMind,"General-purpose, long-context autoregressive modeling with Perceiver AR",,https://arxiv.org/abs/2202.07765,,https://arxiv.org/abs/2202.07765
+Google DeepMind,Competition-Level Code Generation using Deep Language Models,,https://arxiv.org/pdf/2203.07814,,https://arxiv.org/pdf/2203.07814
+Google DeepMind,Sample-based Approximation of Nash in Large Many-Player Games via Gradient Descent,,https://arxiv.org/pdf/2106.01285,,https://arxiv.org/pdf/2106.01285
+Google DeepMind,Deep Hierarchy in Bandits,,https://arxiv.org/pdf/2202.01454,,https://arxiv.org/pdf/2202.01454
+Google DeepMind,Unified Scaling Laws for Routed Language Models,,https://arxiv.org/pdf/2202.01169,,https://arxiv.org/pdf/2202.01169
+Google DeepMind,Online Apprenticeship Learning,,https://arxiv.org/abs/2102.06924,,https://arxiv.org/abs/2102.06924
+Google DeepMind,Physical Design using Differentiable Learned Simulators,,https://arxiv.org/pdf/2202.00728,,https://arxiv.org/pdf/2202.00728
+Google DeepMind,Continual Repeated Annealed Flow Transport Monte Carlo,,https://arxiv.org/pdf/2201.13117,,https://arxiv.org/pdf/2201.13117
+Google DeepMind,Adversarial Masking for Self-Supervised Learning,,https://arxiv.org/pdf/2201.13100,,https://arxiv.org/pdf/2201.13100
+Google DeepMind,A Context-Integrated Transformer-Based Neural Network for Auction Design,,https://arxiv.org/pdf/2201.12489,,https://arxiv.org/pdf/2201.12489
+Google DeepMind,Learning more skills through optimistic exploration,,https://openreview.net/forum?id=cU8rknuhxc,,https://openreview.net/forum?id=cU8rknuhxc
+Google DeepMind,From Data to Functa: Your data point is a function and you should treat it like one,,https://arxiv.org/pdf/2201.12204,,https://arxiv.org/pdf/2201.12204
+Google DeepMind,NeuPL: Neural Population Learning,,https://openreview.net/forum?id=MIX3fJkl_1,,https://openreview.net/forum?id=MIX3fJkl_1
+Google DeepMind,The Challenges of Exploration for Offline Reinforcement Learning,,https://arxiv.org/pdf/2201.11861,,https://arxiv.org/pdf/2201.11861
+Google DeepMind,Human-centred mechanism design with democratic AI research,,https://arxiv.org/pdf/2201.11441,,https://arxiv.org/pdf/2201.11441
+Google DeepMind,Spurious normativity enhances learning of compliance and enforcement behavior in artificial agents,,https://www.deepmind.com/research?d907cb24_page=9#,,https://www.deepmind.com/research?d907cb24_page=9#
+Google DeepMind,Chaining Value Functions for Off-Policy Learning,,https://arxiv.org/pdf/2201.06468,,https://arxiv.org/pdf/2201.06468
+Google DeepMind,Pavlovian Signalling with General Value Functions in Agent-Agent Temporal Decision Making,,https://arxiv.org/pdf/2201.03709,,https://arxiv.org/pdf/2201.03709
+Google DeepMind,Learning to be robust and private,,https://arxiv.org/pdf/2201.02265,,https://arxiv.org/pdf/2201.02265
+Google DeepMind,Reward-Punishment Symmetric Universal Intelligence,,https://link.springer.com/content/pdf/10.1007/978-3-030-93758-4,,https://link.springer.com/content/pdf/10.1007/978-3-030-93758-4
+Google DeepMind,Learning Optimal Conformal Classifiers,,https://arxiv.org/abs/2110.09192,,https://arxiv.org/abs/2110.09192
+Google DeepMind,Feature and Parameter Selection in Stochastic Linear Bandits,,https://proceedings.mlr.press/v162/moradipari22a/moradipari22a,,https://proceedings.mlr.press/v162/moradipari22a/moradipari22a
+Google DeepMind,Learned coarse models for efficient turbulence simulation,,https://arxiv.org/pdf/2112.15275,,https://arxiv.org/pdf/2112.15275
+Google DeepMind,On the Role of Neural Collapse in Transfer Learning,,https://arxiv.org/pdf/2112.15121,,https://arxiv.org/pdf/2112.15121
+Google DeepMind,Isotuning with applications to scale-free online learning,,https://arxiv.org/pdf/2112.14586,,https://arxiv.org/pdf/2112.14586
+Google DeepMind,Proving Theorems using Incremental Learning and Hindsight Experience Replay,,https://arxiv.org/pdf/2112.10664,,https://arxiv.org/pdf/2112.10664
+Google DeepMind,Assessing Human Interaction in Virtual Reality with Continually Learning Prediction Agents Based on Reinforcement Learning Algorithms: A Pilot Study,,https://arxiv.org/pdf/2112.07774,,https://arxiv.org/pdf/2112.07774
+Google DeepMind,Hidden Agenda,,https://drive.google.com/file/d/1vrD3W6joGmQ3ObsbVgEN-1e_360qpFa2/view,,https://drive.google.com/file/d/1vrD3W6joGmQ3ObsbVgEN-1e_360qpFa2/view
+Google DeepMind,Gaussian dropout as an information bottleneck layer,,https://web.archive.org/web/20230810094540/http://bayesiandeeplearning.org/2021/papers/40,,https://web.archive.org/web/20230810094540/http://bayesiandeeplearning.org/2021/papers/40
+Google DeepMind,Latent Keypoint Embeddings for Few-Shot Object-Part Detection,,https://arxiv.org/pdf/2112.04910,,https://arxiv.org/pdf/2112.04910
+Google DeepMind,ParK: Sound and Efficient Kernel Ridge Regression by Feature Space Partitions,,https://proceedings.neurips.cc/paper/2021/file/32b9e74c8f60958158eba8d1fa372971-Paper,,https://proceedings.neurips.cc/paper/2021/file/32b9e74c8f60958158eba8d1fa372971-Paper
+Google DeepMind,Pushing the Frontiers of Density Functionals by Solving the Fractional Electron Problem,,https://storage.googleapis.com/deepmind-media/papers/Data_Driven_Density_Functional_Design/data_driven_density_functional_design_unformatted,,https://storage.googleapis.com/deepmind-media/papers/Data_Driven_Density_Functional_Design/data_driven_density_functional_design_unformatted
+Google DeepMind,Improving language models by retrieving from trillions of tokens,,https://arxiv.org/pdf/2112.04426,,https://arxiv.org/pdf/2112.04426
+Google DeepMind,Model-Value Self-Inconsistency as a Signal for Epistemic Uncertainty,,https://arxiv.org/pdf/2112.04153,,https://arxiv.org/pdf/2112.04153
+Google DeepMind,"Scaling Language Models: Methods, Analysis & Insights from Training Gopher",,https://www.deepmind.com/research?d907cb24_page=9#,,https://www.deepmind.com/research?d907cb24_page=9#
+Google DeepMind,Ethical and social risks of harm from Language Models,,https://arxiv.org/abs/2112.04359,,https://arxiv.org/abs/2112.04359
+Google DeepMind,Creating Interactive Agents with Imitation Learning,,https://arxiv.org/abs/2112.03763,,https://arxiv.org/abs/2112.03763
+Google DeepMind,Automap: Towards Ergonomic Automated Parallelism for ML Models,,https://arxiv.org/pdf/2112.02958,,https://arxiv.org/pdf/2112.02958
+Google DeepMind,Collaborating with Humans without Human Data,,https://proceedings.neurips.cc/paper/2021/file/797134c3e42371bb4979a462eb2f042a-Paper,,https://proceedings.neurips.cc/paper/2021/file/797134c3e42371bb4979a462eb2f042a-Paper
