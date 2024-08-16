@@ -1,7 +1,7 @@
 # Selecting papers to analyze
 We only looked at papers published on the websites of Anthropic, (Google) DeepMind, and OpenAI between January 2022 and July 2024. Specifically, we looked in the following places:
 * All papers published on https://www.anthropic.com/research
-* All papers available from https://deepmind.google/research/publications/ and https://web.archive.org/web/20220626233857/https://www.deepmind.com/research.[^1]
+* All papers available from https://deepmind.google/research/publications/ and https://web.archive.org/web/20220626233857/https://www.deepmind.com/research. [^1]
 Because there are many papers available here, we used the GPT-3.5 API to read the title and abstract and flag which papers were plausibly relevant,
 and then we manually reviewed these papers to check whether they were indeed safety-focused.
 * Papers on https://openai.com/research, using the website filters to show only papers that are likely to be relevant to safety.[^2]
