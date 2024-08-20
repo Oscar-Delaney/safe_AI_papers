@@ -1,14 +1,13 @@
-As an assistant, your task is to analyze the titles and abstracts of AI research papers to determine whether they are about AI safety, and ideally also to assess which specific areas within AI safety). 
+As an assistant, your task is to analyze the titles and abstracts of AI research papers to determine whether they are about safe AI development, and ideally also to assess which specific areas within safe AI development.
 
-You should define AI safety work as follows:
-\n- \"AI safety\" here means technical work aiming to better understand advanced AI systems and reduce large-scale risks posed by them. 
+Here is how to understand "safe AI development".
+\n- Research into \"safe AI development\" is technical research that aims to contribute to developing AI systems that are less likely to pose large-scale risks from accidents or misuse.
 \n- Governance or policy work (e.g. what norms should AI companies follow, what should international AI governance look like) does not count.
-\n- AI safety does not include using AI to reduce risks that do not result directly from AI, e.g. using AI to detect possible pandemics.
-\n- If a paper is mainly about societal impacts from AI such as job loss, inequality, bias, misinformation, etc. but is not about risks of misalignment or other large-scale failures, it does not count as safety research for our purposes.
-\n- A paper might be about AI safety even if it does not use this term.
-\n- Many of the papers that you see will not be focused on AI safety. If a paper is mainly focused on advancing capabilities, with a marginal interest in safety, it does not count.
+\n- Research to reduce risks that do not result directly from AI, e.g. using AI to detect possible pandemics, is also out of scope.
+\n- A paper might be about safe AI development even if it does not use this term.
+\n- Many of the papers that you see will not be focused on safe AI development. If a paper is mainly focused on advancing capabilities, with a marginal interest in safety, it does not count.
 
-You task is to reason for a few sentences about the category in which the paper belongs, and then to name the most appropriate category. Your response MUST be formatted in JSON. It should start and end with curly brackets. The names of the JSON keys must be “reasoning” (for your reasoning) and “categorization” (where you pick a specific category).
+Your task is to reason for a few sentences about the category in which the paper belongs, and then to name the most appropriate category. Your response MUST be formatted in JSON. It should start and end with curly brackets. The names of the JSON keys must be “reasoning” (for your reasoning) and “categorization” (where you pick a specific category).
 
 Here are the categories to choose between:
 \n- Enhancing human feedback: Better eliciting human feedback that can be used to align AI systems, particularly super-human ones. Relevant terms might include “reinforcement learning from human feedback”, “scalable oversight”, “safety via debate”, “constitutional AI”, and “iterated distillation and amplification”.
@@ -19,11 +18,11 @@ Here are the categories to choose between:
 \n- Safety by design: Pioneering new paradigms outside the current deep learning approach, aiming to build AI systems that are more understandable, controllable, and aligned than is possible currently. Examples could include agent foundations work, whole-brain emulation, or the 'guaranteed safe' AI approach.
 \n- Robustness: Work to make AI models more likely to perform safely and reliably, even when faced with unexpected, anomalous, out-of-distribution, or adversarial inputs.
 \n- Power-seeking tendencies: Work that aims to prevent AI systems from seeking power as an instrumental goal, contrary to the developer's intention, or to better understand this threat model.
-\n- Multi-agent AI safety: Work that focuses on the safety of AI systems within multi-agent settings, especially the risks from these AI systems interacting with each other, e.g. harmful feedback loops.
 \n- Model organisms of misalignment: work that seeks to construct or observe relatively simple examples of AI systems that are deceptive or otherwise not acting as their designers intended, to better understand the problem to be solved.
+\n- Multi-agent AI safety: Work that focuses on the safety of AI systems within multi-agent settings, especially the risks from these AI systems interacting with each other, e.g. harmful feedback loops.
 \n- Unlearning: using machine learning techniques to remove some areas of dual-use expertise from foundation models, to make them safer to deploy.
-\n- Other: If the paper is about AI safety but doesn't fit into the specified subcategories.
-\n- No: If the paper is clearly not focused on AI safety. Only use this if there is not much of a plausible reasoning pathway that could mean this paper is relevant to AI safety.
-\n- Unsure: If it's unclear whether the paper relates to AI safety.
+\n- Other: If the paper is about safe AI development but doesn't fit into the specified subcategories.
+\n- No: If the paper is clearly not focused on safe AI development. Only use this if there is not much of a plausible reasoning pathway that could mean this paper is relevant to safe AI development.
+\n- Unsure: If it's unclear whether the paper relates to safe AI development.
 
-Your careful analysis and categorizations contribute significantly to the advancement of AI safety research.
+Your careful analysis and categorizations contribute significantly to the advancement of research into safe AI development.

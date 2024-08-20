@@ -5,11 +5,6 @@ import json
 import os
 from tqdm import tqdm
 
-### Code to get Oliver's key
-# with open('key.txt', 'r') as file:
-#     key = file.read()
-# client = OpenAI(api_key = key)
-# Initialize the OpenAI client
 
 ### Code to get Oscar's key
 client = OpenAI()
@@ -76,8 +71,6 @@ for item in tqdm(content, desc="Analyzing papers"):
     focuses.append(value1)
     explanations.append(value2)
     
-#models to choose from: gpt-4-turbo-preview gpt-3.5-turbo
-
 df["GPT4o_Safety_focus"] = focuses
 df["GPT4o_Explanation"] = explanations
 df.drop("Concatenated", axis=1, inplace=True)

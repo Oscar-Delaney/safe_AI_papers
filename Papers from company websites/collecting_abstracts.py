@@ -1,3 +1,6 @@
+# This code helps automate collecting information about papers on the websites of Anthropic, DeepMind and Google.
+# The input is links to webpages from those companies.
+
 import requests
 import xml.etree.ElementTree as ET
 from bs4 import BeautifulSoup
