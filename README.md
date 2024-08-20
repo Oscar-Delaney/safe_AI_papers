@@ -2,11 +2,9 @@
 We looked at papers published on the websites of Anthropic, (Google) DeepMind, and OpenAI between January 2022 and July 2024. Specifically, we looked in the following places:
 * All papers published on https://www.anthropic.com/research
 * All papers available from https://deepmind.google/research/publications/ and https://web.archive.org/web/20220626233857/https://www.deepmind.com/research. [^1]
-Because there are many papers available here, we used the GPT-3.5 API to read the title and abstract and flag which papers were plausibly relevant,
-and then we manually reviewed these papers to check whether they were indeed relevant.
 * Papers on https://openai.com/research, using the website filters to show only papers that are likely to be relevant.[^2]
 
-We ignored results on these pages that did not link to a paper (e.g. blog posts). We used collecting_abstracts.py to automate the process of extracting information such as abstracts from the list of relevant URLs that we compiled.
+We ignored results on these pages that did not link to a paper (e.g. blog posts). We used collecting_abstracts.py to automate part of the process of adding information about the papers that we had identified to our dataset.
 
 # Collecting papers to analyze from arXiv
 To collect relevant papers from arXiv, we used the following approach:
