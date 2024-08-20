@@ -17,8 +17,7 @@ To categorize the papers, one of us (Delaney) read the title and abstract. If th
 We used two approaches to minimize classification errors.
 * First, another author (Guest) independently categorized a random 25% of the papers.
 We discussed cases where our categorisations differed and Delaney did another round of categorizations taking the discussion into account.
-* Second, in assessing_papers.py we used the GPT-4o-mini API by providing descriptions of our clusters to the API and asking it to classify each paper on the basis of the title and abstract. Delaney reviewed any cases where the API gave a different answer to him, updating the categorization as appropriate.
-The final decisions about categorizations were made by Delaney (not by the API).
+* Second, in assessing_papers.py we used the GPT-4o-mini API by providing descriptions of our clusters to the API and asking it to classify each paper based on the title and abstract. Delaney reviewed any cases where the API gave a different answer to him, updating the categorization as appropriate. There were 34 papers (out of 359 for which we had an abstract and the API assessment worked) where GPT-4o-mini disagreed with Delaney, and of these based on both Delaney and Guest reviewing them, in five cases we did change our initial categorization.
 
 [^1]: Much of DeepMind’s research from before the merger with Google Brain is no longer available on the live website, hence we also used the Internet Archive.
 We did not include pre-merger Google Brain research.
