@@ -17,8 +17,8 @@ client.api_key = os.getenv("OPENAI_API_KEY")
 
 #Importing the CSV and adding the titles and abstracts to lists to subsequently use in the API function
 
-# Load the CSV file.
-df = pd.read_csv('ODA_papers_with_abstracts.csv')
+# Load the CSV file. The all_papers file includes some more papers added manually.
+df = pd.read_csv('all_papers_with_abstracts.csv')
 df['Abstract'] = df['Abstract'].fillna("Abstract not found")  # Replace NULL values
 
 
@@ -69,7 +69,7 @@ focuses = []
 explanations = []
 for item in tqdm(content, desc="Analyzing papers"):
     try:
-        value1, value2 = analyze_paper(item, prompt, "gpt-3.5-turbo")
+        value1, value2 = analyze_paper(item, prompt, "gpt-4o-mini")
     except Exception as e:
         print(f"Error processing {item[:30]}...: {e}")
         value1, value2 = "error", "error"
@@ -78,7 +78,8 @@ for item in tqdm(content, desc="Analyzing papers"):
     
 #models to choose from: gpt-4-turbo-preview gpt-3.5-turbo
 
-df["Safety_focus"] = focuses
-df["Explanation"] = explanations
+df["GPT4o_Safety_focus"] = focuses
+df["GPT4o_Explanation"] = explanations
+df.drop("Concatenated", axis=1, inplace=True)
 
 df.to_csv('final_output.csv', index=False)
