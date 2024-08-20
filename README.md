@@ -6,7 +6,7 @@ Because there are many papers available here, we used the GPT-3.5 API to read th
 and then we manually reviewed these papers to check whether they were indeed relevant.
 * Papers on https://openai.com/research, using the website filters to show only papers that are likely to be relevant.[^2]
 
-We ignored results on these pages that did not link to a paper (e.g. blog posts).
+We ignored results on these pages that did not link to a paper (e.g. blog posts). We used collecting_abstracts.py to automate the process of extracting information such as abstracts from the list of relevant URLs that we compiled.
 
 # Collecting papers to analyze from arXiv
 To collect relevant papers from arXiv, we used the following approach:
@@ -16,10 +16,10 @@ To collect relevant papers from arXiv, we used the following approach:
 
 # Categorizing papers
 To categorize the papers, one of us (Delaney) read the title and abstract. If the paper seemed relevant to safety, Delaney assigned it to the category that seemed most appropriate.
-We used two approaches to minimize classification errors. First, another author (Guest) independently categorized a random 25% of the papers.
+We used two approaches to minimize classification errors.
+* First, another author (Guest) independently categorized a random 25% of the papers.
 We discussed cases where our categorisations differed and Delaney did another round of categorizations taking the discussion into account.
-Second, in assessing_papers.py we used the GPT-3.5 API by providing descriptions of our clusters to the API and asking it to classify each paper on the basis of the title and abstract.
-Delaney reviewed any cases where the API gave a different answer to him, updating the categorization as appropriate.
+* Second, in assessing_papers.py we used the GPT-4o-mini API by providing descriptions of our clusters to the API and asking it to classify each paper on the basis of the title and abstract. Delaney reviewed any cases where the API gave a different answer to him, updating the categorization as appropriate.
 The final decisions about categorizations were made by Delaney (not by the API).
 
 [^1]: Much of DeepMind’s research from before the merger with Google Brain is no longer available on the live website, hence we also used the Internet Archive.
