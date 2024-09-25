@@ -19,6 +19,13 @@ We used two approaches to minimize classification errors.
 We discussed cases where our categorisations differed and Delaney did another round of categorizations taking the discussion into account.
 * Second, in assessing_papers.py we used the GPT-4o-mini API by providing descriptions of our clusters to the API and asking it to classify each paper based on the title and abstract. Delaney reviewed any cases where the API gave a different answer to him, updating the categorization as appropriate. There were 34 papers (out of 359 for which we had an abstract and the API assessment worked) where GPT-4o-mini disagreed with Delaney, and of these based on both Delaney and Guest reviewing them, in five cases we did change our initial categorization.
 
+# Fixes
+The dataset that we initially published incorrectly excluded some papers because of issues with the code that we were using to access papers from arXiv. Specifically:
+* There appears to be an issue with the arXiv API backend: When we gave an end date of 2024-07-31, it did not return papers from after 2024-01-01. However, when we changed the end date to 2025-01-01, it did return such papers. We intend to investigate this further and inform arXiv if appropriate.
+* We neglected to include some relevant search terms, such as "scalable oversight".
+
+We apologize for not catching these issues before publishing.
+
 [^1]: Much of DeepMind’s research from before the merger with Google Brain is no longer available on the live website, hence we also used the Internet Archive.
 We did not include pre-merger Google Brain research.
 [^2]: Specifically, we looked at any paper that matched the following filters: "adversarial examples", "human feedback", "interpretability", "multi-agent", "robustness", "safety & alignment".
